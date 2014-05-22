@@ -10,6 +10,8 @@ define(['models/TemplateModel','text!templates/elegant.html'],function(TemplateM
 			'*':'#ff00ff',
 			'#title1':'#338811',
 			'#title2':'#00ff00'
+		},
+		graphic:{
 		}
 	});
 	

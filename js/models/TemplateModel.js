@@ -8,11 +8,18 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 		template:_.template(''), // default template
 		font:null, // default font
 		color:null, // default color
+		graphic:null, // default graphic
+		effect:null, // default effect
 		
 		setup:function(){},
 		rebaseDoc:function(c){
-			var innerHTML = this.template(c);
+			var innerHTML = $(this.template(c));
+			$('#signe',innerHTML).html('').removeAttr();
 			$('#doc').html(innerHTML);
+		},
+		insertGraphic:function(c){
+			var innerHTML = $(this.template(c));
+			$('#doc #signe').html($('#signe',innerHTML).html());
 		},
 		applyOption:function(optionType){
 			var option = this[optionType], model = this;
@@ -36,6 +43,9 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 				elTarget = filter;
 			//
 			switch(optionType){
+				
+				//
+				//
 				//
 				case 'font' :
 				// load font
@@ -46,20 +56,32 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 					$('.doc,svg',doc).css({fontFamily:option});
 				}else{
 					$('g'+filter+' text, text'+filter,doc).attr({'font-family':option});
-				}
-				
-				
+				}				
 				break;
+				
+				//
+				//
 				//
 				case 'color' :
 				if(filter=='*'){
 					$('.doc',doc).css({color:option});
 					$('text',doc).attr({fill:option});
+					//$('path,polygon',doc).attr({fill:option,stroke:option});
 				}else{
 					$(filter).find('span,div,h1,h2,h3,h4,h5,h6,p').css({color:option});
 					$('g'+filter+' text, text'+filter,doc).attr({fill:option});
+					$(filter,doc).find().attr({stroke:option});
 				}
 				break;
+				
+				//
+				//
+				//
+				case 'effect' :
+				$(filter,doc).each(option);
+				break;
+				
+				
 			}
 		},
 		applyFont:function(){
@@ -67,6 +89,9 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 		},
 		applyColor:function(){
 			this.applyOption('color');
+		},
+		applyEffect:function(){
+			this.applyOption('effect');
 		}
 		
 	});

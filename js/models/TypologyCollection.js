@@ -76,9 +76,13 @@ define(['jquery','underscore','backbone',
 			this.randomSelectedTypology().template[name](content);
 		},
 		run:function(content){
+			console.log(this.selectedTypologies());
 			this.runR('rebaseDoc',content);
+			this.runR('insertGraphic',content);
 			this.runR('applyFont',content);
 			this.runR('applyColor',content);
+			this.runR('applyEffect',content);
+
 		}
 	});
 	
