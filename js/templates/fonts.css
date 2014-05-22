@@ -1,0 +1,7 @@
+@font-face {
+	font-family: '<%= font %>';
+	src: url('fonts/<%= font %>/<%= font %>.eot?') format('eot'), 
+	     url('fonts/<%= font %>/<%= font %>.woff') format('woff'), 
+	     url('fonts/<%= font %>/<%= font %>.ttf')  format('truetype'),
+	     url('fonts/<%= font %>/<%= font %>.svg#<%= font %>') format('svg');
+}

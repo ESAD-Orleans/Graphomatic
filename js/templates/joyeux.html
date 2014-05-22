@@ -1,0 +1,40 @@
+<svg class="doc" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="420px" height="600px" viewBox="0 0 420 600" enable-background="new 0 0 420 600" xml:space="preserve">
+
+<% fillImageTo(420,600) %>
+
+<defs>
+    <pattern id="image_pattern" patternUnits="userSpaceOnUse" x="0" y="0"  width="420" height="600">
+        <image xlink:href="<%= image.url %>" x="<%= image.d.x %>" y="<%= image.d.y %>" width="<%= image.d.width %>" height="<%= image.d.height %>" />
+    </pattern>
+</defs>
+
+<g id="signe">
+</g>
+
+<g id="img">
+	<rect x="0" y="0" fill="url(#image_pattern)" width="420" height="600"/>
+</g>
+
+<g id="titles">
+
+	<g id="title1" transform="translate(20 433)" width="300" height="37">
+		<rect fill="none" width="300" height="37"/>
+		<text transform="translate(0,37)" fill="#010201" font-size="38" letter-spacing="2"><%= get('title1').toUpperCase() %></text>
+	</g>
+	
+	<g id="title2">
+		<text transform="translate(200 480)" text-anchor="end" >
+		<% var title2Height = 12; split('title2').each(function(v, i){ %><tspan x="0" y="<%= title2Height %>"><%= v %></tspan><% title2Height+=12 }) %></text>
+	</g>
+	
+	<g id="details">
+		<rect x="58" y="480" fill="none" width="166" height="83"/>
+		<text transform="translate(200 <%= 480+title2Height %>)" text-anchor="end" >
+		<% var level = 0; split('details').each(function(v, i){ level+=i %><tspan x="0" y="<%= i*12 %>"><%= v %></tspan><% }) %>
+		</text>
+	</g>
+	
+	
+</g>
+
+</svg>

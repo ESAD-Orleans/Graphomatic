@@ -1,0 +1,39 @@
+<svg class="doc" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="420px" height="600px" viewBox="0 0 420 600" enable-background="new 0 0 420 600" xml:space="preserve">
+
+<% fillImageTo(200,200) %>
+
+<defs>
+    <pattern id="image_pattern" patternUnits="userSpaceOnUse" x="110" y="120"  width="200" height="200">
+        <image xlink:href="<%= image.url %>" x="<%= image.d.x %>" y="<%= image.d.y %>" width="<%= image.d.width %>" height="<%= image.d.height %>" />
+    </pattern>
+</defs>
+
+<g id="signe">
+</g>
+
+<g id="img">
+	<rect x="110" y="120" fill="url(#image_pattern)" width="200" height="200"></rect>
+</g>
+
+<g id="titles">
+
+	<g id="title1" transform="translate(20 510)" width="300" height="37">
+		<text fill="#010201" font-size="24" letter-spacing="2"><%= get('title1').toUpperCase() %></text>
+	</g>
+	
+	<g id="title2" transform="translate(20 524)">
+		<text font-size="12">
+		<%= get('title2') %>
+		</text>
+	</g>
+	
+	<g id="details" transform="translate(20 536)">
+		<text font-size="12">
+		<%= get('details') %>
+		</text>
+	</g>
+	
+	
+</g>
+
+</svg>

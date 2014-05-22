@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+html,body{
+	padding:0;
+	margin:0;
+	background:#666;
+	width:100%;
+	height:100%;
+	min-height: 680px;
+	position:relative;
+}
+.tools {
+	position: fixed;
+	top:100px;
+	left:440px;
+	width:auto;
+	float:left;
+	padding:10px;
+	background:#999;
+	font-family:monospace;
+	font-size:10px;
+	line-height:20px;
+}
+input, textarea, select{
+	border:none;
+	box-sizing:border-box;
+	padding:5px 5px;
+	display:block;
+	width:300px;
+	max-width:100%;
+	-webkit-appearance:none;
+	background:#fff;
+	color:#000;
+	border-radius:0;
+	font-family:monospace;
+	font-size:10px;
+}
+select[multiple] option[disabled]{
+	display:none;
+}
+input[type=submit]{
+	margin:20px 0 0 0;
+}
+#doc{
+	background:#fff;
+	display:block;
+	left:10px;
+}
+.doc{
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	width:420px;
+	height:600px;
+}
