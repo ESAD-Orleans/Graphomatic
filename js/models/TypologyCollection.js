@@ -2,12 +2,14 @@ define(['jquery','underscore','backbone',
 		'templates/base',
 		'templates/serieux',
 		'templates/joyeux',
+		'templates/important',
 		'templates/elegant'
 		],
 	function($,_,Backbone,
 		TemplateBase,
 		TemplateSerieux,
 		TemplateJoyeux,
+		TemplateImportant,
 		TemplateElegant
 		){
 	//
@@ -18,6 +20,7 @@ define(['jquery','underscore','backbone',
 			case 'serieux' : return TemplateSerieux;
 			case 'joyeux' : return TemplateJoyeux;
 			case 'elegant' : return TemplateElegant;
+			case 'important' : return TemplateImportant;
 			case 'base' : default : return TemplateBase;
 		}
 	}

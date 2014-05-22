@@ -1,4 +1,4 @@
-define(['models/TemplateModel','text!templates/serieux.html'],function(TemplateModel,HTML){
+define(['models/TemplateModel','text!templates/important.html'],function(TemplateModel,HTML){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
