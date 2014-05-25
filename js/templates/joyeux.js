@@ -1,4 +1,4 @@
-define(['models/TemplateModel','text!templates/joyeux.html'],function(TemplateModel,HTML){
+define(['models/TemplateModel','text!templates/joyeux.html','models/SVGFilterEffect'],function(TemplateModel,HTML,SVGFilterEffect){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
@@ -8,11 +8,8 @@ define(['models/TemplateModel','text!templates/joyeux.html'],function(TemplateMo
 			'#spaghetti path':'#00ff00'
 		},
 		effect:{
-			'#image':function(){
-				console.log(this);
-				//$('#doc svg defs').append($('<filter id="blurFilter"><feGaussianBlur stdDeviation="10 10"/></filter>'));
-				//$(this).attr('filter',"url('#blurFilter')");
-			}
+			'#img':SVGFilterEffect
+				
 		}
 	});
 	
