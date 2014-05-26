@@ -1,17 +1,16 @@
 define(['jquery','underscore','backbone','models/EffectModel'],function($,_,Backbone,EffectModel){
 	
 	return EffectModel.extend({
+		filterId : 'defaultFilter',
+		filterTemplate : '',
 		run:function(){
+			var g = $('<g class="filter" filter="url(#'+this.filterId+')"></g>');
+			this.$el.wrap(g);
 		},
 		setup:function(){
-			var svgDefs = $('#doc svg defs').get(0);
-			var filter = document.createElementNS("http://www.w3.org/2000/svg", "filter")
-				f = document.createElementNS("http://www.w3.org/2000/svg", "feGaussianBlur");
-			f.attributes.value="10 10";
-			filter.appendChild(f);
-			ff = f;
-			$(svgDefs).append(filter);
-			//console.log(svgDefs,filter);
+			var svgTags = _.template(this.filterTemplate)();
+			console.log(svgTags);
+			$('#doc svg defs').append($(svgTags));
 		}
 	});
 		

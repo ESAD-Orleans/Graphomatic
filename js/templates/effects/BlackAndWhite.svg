@@ -1,0 +1,6 @@
+<filter id="BlackAndWhite">
+	<feColorMatrix values="0.3333 0.3333 0.3333 0 0
+                             0.3333 0.3333 0.3333 0 0
+                             0.3333 0.3333 0.3333 0 0
+                             0      0      0      1 0"/>
+</filter>

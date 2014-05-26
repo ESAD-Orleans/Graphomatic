@@ -1,4 +1,4 @@
-define(['models/TemplateModel','text!templates/joyeux.html','models/SVGFilterEffect'],function(TemplateModel,HTML,SVGFilterEffect){
+define(['models/TemplateModel','text!templates/joyeux.html','templates/effects/Blur'],function(TemplateModel,HTML,Blur){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
@@ -8,8 +8,7 @@ define(['models/TemplateModel','text!templates/joyeux.html','models/SVGFilterEff
 			'#spaghetti path':'#00ff00'
 		},
 		effect:{
-			'#img':SVGFilterEffect
-				
+			'#img':Blur
 		}
 	});
 	

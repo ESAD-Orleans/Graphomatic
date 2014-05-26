@@ -6,8 +6,8 @@ define(['jquery','underscore','backbone'],function($,_,Backbone,fonts){
 			this.setup();
 			$el.each($.proxy(this.run,this));
 		},
-		setup:function(){},
-		run:function(){}
+		setup:function(){console.log('setup effect');},
+		run:function(){console.log('run effect');}
 	});
 	
 });
