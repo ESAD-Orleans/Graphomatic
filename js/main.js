@@ -10,12 +10,17 @@ require.config({
 		'underscore': 'lib/underscore-min',
 		'backbone':'lib/backbone-min',
 		
+		
 		// RequireJS plugins
 		
 		'text': 'lib/text',
 		
 		// plugins
-		'dateFormat': 'lib/date.format'
+		'dateFormat': 'lib/date.format',
+		'jquery.form' : 'lib/jquery.form.min',
+		
+		//libs
+		'color-thief': 'lib/color-thief'
 	},
 
 	shim: {
@@ -29,6 +34,7 @@ require.config({
 		    deps: ["underscore", "jquery"],
 		    exports: "Backbone"
 		},
+		'jquery.form' : ['jquery']
 	}
 }
 );

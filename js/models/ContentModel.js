@@ -26,6 +26,19 @@ define(['jquery','underscore','backbone','dateFormat'],function($,_,Backbone){
 					val = $(this).val();
 				switch(id){
 					case 'image': 
+					//
+					if($('#image-filename').val()){
+						var p = $(this).parent(),
+							image = {};
+						$(':hidden',p).each(function(){
+							var k = String($(this).attr('id')).split('image-').pop(), v = $(this).val();
+							if(k=='undefined')return;
+							image[k]=v;
+						});
+						image.url = image.filepath;
+						model.set('image',image);
+					}
+					//
 					case undefined : return;
 				}
 				//console.log(id,val);

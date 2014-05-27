@@ -21,6 +21,11 @@ html,body{
 	font-size:10px;
 	line-height:20px;
 }
+.tools label{
+	position:relative;
+	width:300px;
+	display:block;
+}
 input, textarea, select{
 	border:none;
 	box-sizing:border-box;
@@ -40,6 +45,22 @@ select[multiple] option[disabled]{
 }
 input[type=submit]{
 	margin:20px 0 0 0;
+}
+.tools img.preview{
+	max-width:100%;
+	max-height:100px;
+	width:auto;
+	height:auto;
+	display:block;
+	margin:5px 0 0 0;
+}
+.palette{
+	width:10%;
+	float:left;
+	height:20px;
+}
+.palette.main{
+	width:40%;
 }
 #doc{
 	background:#fff;

@@ -17,8 +17,7 @@
 
 
 <div class="tools">
-	<form>
-       
+	<form action="upload.php" method="post" enctype="multipart/form-data">
     	<label>
         	titre 1
         	<input type="text" id="title1" value="titre 1" />	
@@ -46,7 +45,7 @@
         
         <label>
         	image
-        	<input type="file" id="image" />
+        	<input type="file" id="image" name="image" />
         </label>
         
          <label>

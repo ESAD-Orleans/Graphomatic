@@ -9,7 +9,6 @@ define(['jquery','underscore','backbone','models/EffectModel'],function($,_,Back
 		},
 		setup:function(){
 			var svgTags = _.template(this.filterTemplate)();
-			console.log(svgTags);
 			$('#doc svg defs').append($(svgTags));
 		}
 	});
