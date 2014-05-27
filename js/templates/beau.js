@@ -1,4 +1,4 @@
-define(['models/TemplateModel','text!templates/solenel.html','templates/effects/BlackAndWhite'],function(TemplateModel,HTML,BlackAndWhite){
+define(['models/TemplateModel','text!templates/beau.html','templates/effects/BlackAndWhite'],function(TemplateModel,HTML,BlackAndWhite){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),

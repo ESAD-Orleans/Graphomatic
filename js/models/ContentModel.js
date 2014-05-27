@@ -21,6 +21,15 @@ define(['jquery','underscore','backbone','dateFormat'],function($,_,Backbone){
 		},
 		initialize:function(o){
 			var model = this;
+			var typology = _([]);
+			$('#typology option:selected').each(function(){
+				typology.push({
+					label:$(this).attr('label'),
+					value:$(this).attr('value')
+				});
+			});
+			this.set('typology',typology);
+			//
 			$('textarea, :text, input[type=date],  :file').each(function(){
 				var id = $(this).attr('id'),
 					val = $(this).val();

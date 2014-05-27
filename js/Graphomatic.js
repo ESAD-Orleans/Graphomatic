@@ -1,4 +1,8 @@
-define(['jquery','underscore','backbone','jquery.form','color-thief','models/ContentModel','models/TypologyCollection','dateFormat'], function($,_,Backbone,jqueryForm,colorThief,ContentModel,TypologyCollection) {
+define(['jquery','underscore','backbone','jquery.form','color-thief',
+		'models/ContentModel',
+		'models/TypologyCollection',
+		'text!templates/printfile.html',
+		'dateFormat'], function($,_,Backbone,jqueryForm,colorThief,ContentModel,TypologyCollection,printfile) {
 	
 	console.log('starting Graphomatic');
 	
@@ -69,6 +73,7 @@ define(['jquery','underscore','backbone','jquery.form','color-thief','models/Con
 			this.contents = new ContentModel();
 			this.typologies = new TypologyCollection();
 			this.typologies.run(this.contents);
+			$('#printfile').html(_.template(printfile)(this.contents));
 			return false;
 		}
 	});

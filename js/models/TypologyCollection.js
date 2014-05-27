@@ -6,6 +6,7 @@ define(['jquery','underscore','backbone',
 
 		
 		'templates/arty',
+		'templates/beau',
 		'templates/dynamique',
 		'templates/elegant',
 		'templates/impactant',
@@ -13,15 +14,14 @@ define(['jquery','underscore','backbone',
 		'templates/joyeux',
 		'templates/rythme',
 		'templates/serieux',
-		'templates/singulier',
-		'templates/solenel',
+		'templates/singulier'
 
 		],
 	function($,_,Backbone,
 		TemplateBase
 		
-		        , arty				, dynamique				, elegant				, impactant				, important				, joyeux				, rythme				, serieux				, singulier
-				, solenel
+		        , arty				, beau
+				, dynamique				, elegant				, impactant				, important				, joyeux				, rythme				, serieux				, singulier
 		){
 	//
 	// 
@@ -29,6 +29,7 @@ define(['jquery','underscore','backbone',
 	var TypologyFactory = function(id){
 		switch(id){
 			case 'arty' : return arty;
+			case 'beau' : return beau;
 			case 'dynamique' : return dynamique;
 			case 'elegant' : return elegant;
 			case 'impactant' : return impactant;
@@ -38,7 +39,6 @@ define(['jquery','underscore','backbone',
 			case 'rythme' : return rythme;
 			case 'serieux' : return serieux;
 			case 'singulier' : return singulier;
-			case 'solenel' : return solenel;
 			//
 			case 'base' : default : return TemplateBase;
 		}
@@ -104,8 +104,7 @@ define(['jquery','underscore','backbone',
 			this.runR('applyColor',content);
 			this.runR('applyEffect',content);
 			var rawHTML = $('#doc').html();
-			$('#doc').html('').html(rawHTML);
-			
+			$('#doc').html('').html(rawHTML);			
 
 		}
 	});

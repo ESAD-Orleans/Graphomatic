@@ -7,7 +7,7 @@ define(['models/TemplateModel','text!templates/elegant.html'],function(TemplateM
 			'#title1':'BaskervilleMTStd-BoldIt'
 		},
 		color:{
-			'*':'#ff00ff',
+			//'*':'#ff00ff',
 			'#title1':'#338811',
 			'#title2':'#00ff00'
 		},
