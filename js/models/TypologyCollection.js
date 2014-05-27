@@ -1,26 +1,45 @@
 define(['jquery','underscore','backbone',
 		'templates/base',
-		'templates/serieux',
-		'templates/joyeux',
+		
+		        // arty				// dynamique				// elegant				// impactant				// important				// joyeux				// rythme				// serieux				// singulier
+				// solenel
+
+		
+		'templates/arty',
+		'templates/dynamique',
+		'templates/elegant',
+		'templates/impactant',
 		'templates/important',
-		'templates/elegant'
+		'templates/joyeux',
+		'templates/rythme',
+		'templates/serieux',
+		'templates/singulier',
+		'templates/solenel',
+
 		],
 	function($,_,Backbone,
-		TemplateBase,
-		TemplateSerieux,
-		TemplateJoyeux,
-		TemplateImportant,
-		TemplateElegant
+		TemplateBase
+		
+		        , arty				, dynamique				, elegant				, impactant				, important				, joyeux				, rythme				, serieux				, singulier
+				, solenel
 		){
 	//
 	// 
 	//
 	var TypologyFactory = function(id){
 		switch(id){
-			case 'serieux' : return TemplateSerieux;
-			case 'joyeux' : return TemplateJoyeux;
-			case 'elegant' : return TemplateElegant;
-			case 'important' : return TemplateImportant;
+			case 'arty' : return arty;
+			case 'dynamique' : return dynamique;
+			case 'elegant' : return elegant;
+			case 'impactant' : return impactant;
+			case 'important' : return important;
+			case 'impactant' : return impactant;
+			case 'joyeux' : return joyeux;
+			case 'rythme' : return rythme;
+			case 'serieux' : return serieux;
+			case 'singulier' : return singulier;
+			case 'solenel' : return solenel;
+			//
 			case 'base' : default : return TemplateBase;
 		}
 	}
@@ -76,12 +95,17 @@ define(['jquery','underscore','backbone',
 			this.randomSelectedTypology().template[name](content);
 		},
 		run:function(content){
-			console.log(this.selectedTypologies());
+			//
+			//console.log(this.selectedTypologies());
+			//
 			this.runR('rebaseDoc',content);
 			this.runR('insertGraphic',content);
 			this.runR('applyFont',content);
 			this.runR('applyColor',content);
 			this.runR('applyEffect',content);
+			var rawHTML = $('#doc').html();
+			$('#doc').html('').html(rawHTML);
+			
 
 		}
 	});

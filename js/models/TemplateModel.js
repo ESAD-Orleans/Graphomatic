@@ -78,7 +78,7 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 				//
 				//
 				case 'effect' :
-				$(filter,doc).each(option);
+				new option($(filter,doc));
 				break;
 				
 				
