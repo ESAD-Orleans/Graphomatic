@@ -5,7 +5,7 @@ define(['models/TemplateModel','text!templates/joyeux.html','templates/effects/Y
         afterRebaseDoc:function(c){
         },
 		font:{
-            '*':'Gravur-Condensed',
+            '*':'Gravur-CondensedBlack',
             '#title1':'Gravur-CondensedBlack'
         },
 		color:{
