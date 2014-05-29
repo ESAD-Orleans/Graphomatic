@@ -16,7 +16,9 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 			var innerHTML = $(this.template(c));
 			$('#signe',innerHTML).html('').removeAttr();
 			$('#doc').html(innerHTML);
+            this.afterRebaseDoc(c);
 		},
+        afterRebaseDoc:function(c){},
 		insertGraphic:function(c){
 			var innerHTML = $(this.template(c));
 			$('#doc #signe').html($('#signe',innerHTML).html());

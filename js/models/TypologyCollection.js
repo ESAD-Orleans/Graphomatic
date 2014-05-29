@@ -1,7 +1,15 @@
 define(['jquery','underscore','backbone',
 		'templates/base',
 		
-		        // arty				// dynamique				// elegant				// impactant				// important				// joyeux				// rythme				// serieux				// singulier
+		        // arty
+				// dynamique
+				// elegant
+				// impactant
+				// important
+				// joyeux
+				// rythme
+				// serieux
+				// singulier
 				// solenel
 
 		
@@ -20,8 +28,16 @@ define(['jquery','underscore','backbone',
 	function($,_,Backbone,
 		TemplateBase
 		
-		        , arty				, beau
-				, dynamique				, elegant				, impactant				, important				, joyeux				, rythme				, serieux				, singulier
+		        , arty
+				, beau
+				, dynamique
+				, elegant
+				, impactant
+				, important
+				, joyeux
+				, rythme
+				, serieux
+				, singulier
 		){
 	//
 	// 
@@ -91,18 +107,29 @@ define(['jquery','underscore','backbone',
 			copy.sort(function(a,b){return Math.random()<.5 ? 1:-1;});
 			return copy.pop();
 		},
+        randomSelectedTypologies:function(l){
+            var a = _([]);
+            for(var n=0;n<l;n++){
+                a.push(this.randomSelectedTypology())
+            }
+            return a;
+        },
 		runR:function(name,content){
 			this.randomSelectedTypology().template[name](content);
 		},
 		run:function(content){
 			//
-			//console.log(this.selectedTypologies());
-			//
-			this.runR('rebaseDoc',content);
-			this.runR('insertGraphic',content);
-			this.runR('applyFont',content);
-			this.runR('applyColor',content);
-			this.runR('applyEffect',content);
+            var operations = ['rebaseDoc','insertGraphic','applyFont','applyColor','applyEffect'];
+			var typologies = this.randomSelectedTypologies(operations.length);
+            //
+            function _Run(id){
+                //
+                typologies.value()[id].template[operations[id]](content);
+            }
+            //
+            for(var n=0; n<typologies.size(); n++){
+                _Run(n);
+            }
 			var rawHTML = $('#doc').html();
 			$('#doc').html('').html(rawHTML);			
 

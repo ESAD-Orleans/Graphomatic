@@ -1,29 +1,24 @@
 <svg class="doc" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="420px" height="600px" viewBox="0 0 420 600" enable-background="new 0 0 420 600" xml:space="preserve">
 
-<% fillImageTo(420,600) %>
+<% fillImageTo(260,360) %>
 
 <defs>
-    <pattern id="image_pattern" patternUnits="userSpaceOnUse" x="0" y="0"  width="420" height="600">
+
+    <pattern id="image_pattern" patternUnits="userSpaceOnUse" x="0" y="0"  width="260" height="360">
         <image xlink:href="<%= image.url %>" x="<%= image.d.x %>" y="<%= image.d.y %>" width="<%= image.d.width %>" height="<%= image.d.height %>" />
     </pattern>
-    
-    <filter id="colorMeMatrix">
-	    <feColorMatrix in="SourceGraphic"
-	      type="matrix"
-	      values="0.309 0.609 0.082 0 0 
-	      			0.309 0.609 0.082 0 0 
-	      			0.309 0.609 0.082 0 0 
-	      			0 0 0 1 0" />
- 	 </filter>
- 	 <filter id="blurFilter">
- 	 	<feGaussianBlur stdDeviation="10 10"/>
- 	 </filter>
-    
+
+    <filter x="0%" y="0%" width="100%" xlink:type="simple" height="100%" id="yellowFilter">
+        <feColorMatrix values="1 0 0 0 1 0 1 0 0 1 0.5 0.5 1 0 0 0 0 0 1 0" type="matrix" />
+    </filter>
+
 </defs>
 
 
-<g id="image" filter="url(#blurFilter)">
-	<rect x="0" y="0" fill="url(#image_pattern)" width="420" height="600" />
+<g id="image">
+    <% for(var i=0; i<7; i++){ %>
+	<rect x="0" y="0" transform="translate(<%= (20+i*20)+' '+(180-i*20) %>)" fill="url(#image_pattern)" width="260" height="360" />
+    <% } %>
 </g>
 
 <g id="signe">
@@ -1753,11 +1748,16 @@
 </g>
 
 
+
+
+
 <g id="titles">
 
-	<g id="title1" transform="translate(20 433)" width="300" height="37">
-		<rect fill="none" width="300" height="37"/>
-		<text transform="translate(0,37)" fill="#010201" font-size="38" letter-spacing="2"><%= get('title1').toUpperCase() %></text>
+	<g id="title1" transform="translate(20 20)" width="300" height="37" filter="">
+        <path id="title1Curve" transform="translate(0,0)" fill="none" d="M0,71.44c146.154,0,232.478-70.94,331.624-70.94"/>
+		<text transform="translate(0,60)" fill="#010201" font-size="72" letter-spacing="2">
+            <textPath xlink:href="#title1Curve" text-anchor="start"><%= get('title1') %></textPath>
+        </text>
 	</g>
 	
 	<g id="title2">

@@ -1,14 +1,19 @@
-define(['models/TemplateModel','text!templates/joyeux.html','templates/effects/Blur'],function(TemplateModel,HTML,Blur){
+define(['models/TemplateModel','text!templates/joyeux.html','templates/effects/YellowWhite'],function(TemplateModel,HTML,YellowWhite){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
-		font:'Gravur-Condensed',
+        afterRebaseDoc:function(c){
+        },
+		font:{
+            '*':'Gravur-Condensed',
+            '#title1':'Gravur-CondensedBlack'
+        },
 		color:{
-			'*':'#ccff00',
+			'*':'#000',
 			'#spaghetti path':'#00ff00'
 		},
 		effect:{
-			'#img':Blur
+			'#image':YellowWhite
 		}
 	});
 	

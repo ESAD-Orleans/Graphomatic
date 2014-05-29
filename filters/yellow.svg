@@ -1,0 +1,75 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+    <defs>
+        <filter x="0%" y="0%" width="200%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:actuate="onLoad" height="200%" id="essai"
+                xlink:show="other">
+            <feColorMatrix values="1 0 0 0 1 0 1 0 0 1 0.5 0.5 1 0 0 0 0 0 1 0" type="matrix" result="fpr1" in="SourceGraphic"/>
+        </filter>
+        <filter x="0%" primitiveUnits="objectBoundingBox" y="0%" width="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                filterUnits="objectBoundingBox" xlink:actuate="onLoad" height="100%" id="TornPaper" xlink:show="other">
+            <feTurbulence seed="0" baseFrequency="0.05" type="fractalNoise" stitchTiles="stitch" result="fpr1" numOctaves="3"/>
+            <feComponentTransfer result="fpr2" in="fpr1">
+                <feFuncR type="identity"/>
+                <feFuncG type="identity"/>
+                <feFuncB type="identity"/>
+                <feFuncA type="linear" intercept="0.5" slope="0.5"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="15" result="fpr3" in="SourceAlpha"/>
+            <feComposite result="fpr4" in="fpr2" k1="1" k2="0" k3="0" k4="0" in2="fpr3" operator="arithmetic"/>
+            <feComponentTransfer result="fpr5" in="fpr4">
+                <feFuncR type="identity"/>
+                <feFuncG type="identity"/>
+                <feFuncB type="identity"/>
+                <feFuncA tableValues="0 0 0 0 0 1 1 1 1 1 1" type="table"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="1" result="fpr6" in="fpr5"/>
+            <feComponentTransfer result="fpr7" in="fpr6">
+                <feFuncR type="identity"/>
+                <feFuncG type="identity"/>
+                <feFuncB type="identity"/>
+                <feFuncA tableValues="0 0 0 0 0 1 1 1 1 1 1" type="table"/>
+            </feComponentTransfer>
+            <feComposite operator="in" in2="fpr7" result="fpr8" in="SourceGraphic"/>
+            <feComponentTransfer result="fpr9" in="fpr8">
+                <feFuncR type="linear" intercept="0" slope="0"/>
+                <feFuncG type="linear" intercept="0" slope="0"/>
+                <feFuncB type="linear" intercept="0" slope="0"/>
+                <feFuncA type="linear" intercept="1" slope="-1"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="2" result="fpr10" in="fpr9"/>
+            <feBlend in2="fpr10" mode="multiply" result="fpr11" in="fpr8"/>
+            <feComposite operator="in" in2="fpr8" result="fpr12" in="fpr11"/>
+            <feDiffuseLighting surfaceScale="0.75" lighting-color="#ffffff" kernelUnitLength="1" diffuseConstant="1.5" result="fpr13" in="fpr1">
+                <fePointLight x="0" y="0" z="400"/>
+            </feDiffuseLighting>
+            <feComposite result="fpr14" in="fpr13" k1="1" k2="0" k3="0.5" k4="0" in2="fpr12" operator="arithmetic"/>
+        </filter>
+        <filter x="-10%" primitiveUnits="objectBoundingBox" y="-10%" width="120%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                filterUnits="objectBoundingBox" xlink:actuate="onLoad" height="120%" id="DropShadow" xlink:show="other">
+            <feGaussianBlur stdDeviation="10" result="fpr1" in="SourceAlpha"/>
+            <feComponentTransfer result="fpr2" in="fpr1">
+                <feFuncR type="identity"/>
+                <feFuncG type="identity"/>
+                <feFuncB type="identity"/>
+                <feFuncA type="linear" intercept="0" slope="0.25"/>
+            </feComponentTransfer>
+            <feOffset dx="10" dy="10" result="fpr3" in="fpr2"/>
+            <feMerge result="fpr4">
+                <feMergeNode in="fpr3"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter x="0%" primitiveUnits="objectBoundingBox" y="0%" width="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                filterUnits="objectBoundingBox" xlink:actuate="onLoad" height="100%" id="Distort" xlink:show="other">
+            <feTurbulence seed="0" baseFrequency="0.005 0.02" type="fractalNoise" stitchTiles="noStitch" result="fpr1" numOctaves="1"/>
+            <feDisplacementMap scale="15" xChannelSelector="R" in2="fpr1" yChannelSelector="A" result="fpr2" in="SourceGraphic"/>
+            <feDiffuseLighting surfaceScale="5" lighting-color="#ffffff" kernelUnitLength="1" diffuseConstant="2" result="fpr3" in="fpr1">
+                <feDistantLight azimuth="30" elevation="20"/>
+            </feDiffuseLighting>
+            <feComposite result="fpr4" in="fpr2" k1="1" k2="0" k3="0" k4="0" in2="fpr3" operator="arithmetic"/>
+        </filter>
+        <filter x="-10%" y="-10%" width="120%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" filterUnits="objectBoundingBox"
+                xlink:actuate="onLoad" height="120%" id="Filter01" xlink:show="other"/>
+    </defs>
+</svg>

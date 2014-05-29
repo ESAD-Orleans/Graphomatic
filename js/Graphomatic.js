@@ -19,20 +19,20 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 			$('form').ajaxForm({
 				dataType:'json',
 				//
-				beforeSubmit:function(){if($('#image').val()==''){view.submit(); return false;}},
+				beforeSubmit:function(){if($('input#image').val()==''){view.submit(); return false;}},
 				//
 				complete:function(data){
 					var response = data.responseJSON;
 					if(response.error){
 						alert(response.error);
 					}else if(response.success){
-						var imageLabel = $('#image').parent();
+						var imageLabel = $('input#image').parent();
 						$('input:hidden, img, .palette',imageLabel).remove();
 						// ajoute tous les champs en cachés.
 						_(response).each(function(v,k){
 							imageLabel.append('<input type="hidden" id="image-'+k+'" value="'+v+'" />');
 						});
-						$('#image').val('');
+						$('input#image').val('');
 						view.loadImage(response['filepath']);
 						view.submit();
 					}
@@ -42,6 +42,8 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 			this.submit();
 			//
 			this.loadImage('images/img-pommier-test.jpg');
+            //
+            $('option[disabled').remove();
 		},
 		forceSubmitForm:function(){
 			$('form').submit();
@@ -52,7 +54,7 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 				var cT = new ColorThief(),
 				 cTColor = cT.getColor(image),
 				 cTPalette = cT.getPalette(image,6),
-				 imageInput = $('#image');
+				 imageInput = $('input#image');
 				_(cTPalette).each(function(v,k){
 					rgb = v[0]+','+v[1]+','+v[2];
 					imageInput.after(
