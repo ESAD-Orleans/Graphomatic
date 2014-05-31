@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf2d69b-05a3-43d8-b0a4-d97e2f5f5082" name="Default" comment="CSS Prints&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/joyeux.html" afterPath="$PROJECT_DIR$/js/templates/joyeux.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/joyeux.js" afterPath="$PROJECT_DIR$/js/templates/joyeux.js" />
-    </list>
+    <list default="true" id="8cf2d69b-05a3-43d8-b0a4-d97e2f5f5082" name="Default" comment="CSS Prints&#10;" />
     <ignored path="Graphomatic.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +67,7 @@
           <file leaf-file-name="joyeux.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/templates/joyeux.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1775" column="36" selection-start="161386" selection-end="161386" vertical-scroll-proportion="0.6639344" vertical-offset="420" max-vertical-offset="1125">
+                <state line="1758" column="72" selection-start="160704" selection-end="160704" vertical-scroll-proportion="0.24590164" vertical-offset="420" max-vertical-offset="1125">
                   <folding>
                     <element signature="tag#g#0;tag#g#1;tag#svg#0" expanded="false" />
                     <element signature="tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
@@ -481,7 +478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templates/joyeux.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1775" column="36" selection-start="161386" selection-end="161386" vertical-scroll-proportion="0.6639344" vertical-offset="420" max-vertical-offset="1125">
+        <state line="1758" column="72" selection-start="160704" selection-end="160704" vertical-scroll-proportion="0.24590164" vertical-offset="420" max-vertical-offset="1125">
           <folding>
             <element signature="tag#g#0;tag#g#1;tag#svg#0" expanded="false" />
             <element signature="tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
