@@ -1,0 +1,9 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+    <defs>
+        <filter xlink:actuate="onLoad" xlink:type="simple" id="Desaturation" xlink:show="other" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <feColorMatrix values="0.3" type="saturate" result="fpr1" in="SourceGraphic"/>
+        </filter>
+    </defs>
+</svg>

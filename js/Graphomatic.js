@@ -41,7 +41,7 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 			//
 			this.submit();
 			//
-			this.loadImage('images/img-pommier-test.jpg');
+			this.loadImage(this.contents.get('image').url);
             //
             $('option[disabled').remove();
 		},

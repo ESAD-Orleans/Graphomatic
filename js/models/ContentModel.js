@@ -14,7 +14,7 @@ define(['jquery','underscore','backbone','dateFormat'],function($,_,Backbone){
 	return Backbone.Model.extend({
 		defaults:{
 			image:{
-				url:'images/img-pommier-test.jpg',
+				url:'images/splash.png',
 				width:1280,
 				height:960
 			}
@@ -103,7 +103,11 @@ define(['jquery','underscore','backbone','dateFormat'],function($,_,Backbone){
 		date:function(format){
 			if(_.isUndefined(format)){format='dd mmmm yyyy'}
 			return dateFormat(this.get('date'),format);
-		}
+		},
+        RandomKey:function(a){
+            // return a Random Key of an indexed array
+            return a[Math.floor(Math.random()*a.length)];
+        }
 	});
 	
 });

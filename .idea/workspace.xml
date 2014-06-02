@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf2d69b-05a3-43d8-b0a4-d97e2f5f5082" name="Default" comment="CSS Prints&#10;" />
+    <list default="true" id="8cf2d69b-05a3-43d8-b0a4-d97e2f5f5082" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/effects/Saturate3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/models/ContentModel.js" afterPath="$PROJECT_DIR$/js/models/ContentModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Graphomatic.js" afterPath="$PROJECT_DIR$/js/Graphomatic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/arty.html" afterPath="$PROJECT_DIR$/js/templates/arty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/arty.js" afterPath="$PROJECT_DIR$/js/templates/arty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/elegant.html" afterPath="$PROJECT_DIR$/js/templates/elegant.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/elegant.js" afterPath="$PROJECT_DIR$/js/templates/elegant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/rythme.html" afterPath="$PROJECT_DIR$/js/templates/rythme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/rythme.js" afterPath="$PROJECT_DIR$/js/templates/rythme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Graphomatic.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,116 +35,85 @@
     <favorites_list name="Graphomatic" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67890626">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="arty.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/templates/arty.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="33" selection-start="1715" selection-end="1715" vertical-scroll-proportion="-24.833334" vertical-offset="334" max-vertical-offset="1320">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Graphomatic.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/Graphomatic.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="51" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1335">
-                  <folding>
-                    <marker date="1401381247000" expanded="false" signature="1799:1814" placeholder="..." />
-                    <marker date="1401381247000" expanded="false" signature="2016:2031" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TemplateModel.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/models/TemplateModel.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="22" selection-start="576" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="joyeux.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/templates/joyeux.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1758" column="72" selection-start="160704" selection-end="160704" vertical-scroll-proportion="0.24590164" vertical-offset="420" max-vertical-offset="1125">
-                  <folding>
-                    <element signature="tag#g#0;tag#g#1;tag#svg#0" expanded="false" />
-                    <element signature="tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
-                    <element signature="tag#g#0;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
-                    <element signature="tag#g#1;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="YellowWhite.svg" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.svg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="59" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="YellowWhite.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="29" selection-start="159" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TypologyCollection.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/models/TypologyCollection.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="121" column="40" selection-start="2634" selection-end="2643" vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2160">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/templates/base.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="joyeux.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/templates/joyeux.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="38" selection-start="291" selection-end="291" vertical-scroll-proportion="0.1474719" vertical-offset="0" max-vertical-offset="712">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="rythme.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/templates/rythme.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="10" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.8033573" vertical-offset="265" max-vertical-offset="1215">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rythme.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/templates/rythme.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="20" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding>
+                <marker date="1401743228000" expanded="true" signature="122:418" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateModel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/models/TemplateModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="17" selection-start="386" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1590">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graphomatic.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Graphomatic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="57" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="1335">
+              <folding>
+                <marker date="1401537926000" expanded="false" signature="1800:1815" placeholder="..." />
+                <marker date="1401537926000" expanded="false" signature="2017:2032" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YellowWhite.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="29" selection-start="159" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypologyCollection.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/models/TypologyCollection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="40" selection-start="2634" selection-end="2643" vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2160">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elegant.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/templates/elegant.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="17" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elegant.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/templates/elegant.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -147,12 +129,23 @@
         <option value="$PROJECT_DIR$/js/templates/base.html" />
         <option value="$PROJECT_DIR$/js/models/TypologyCollection.js" />
         <option value="$PROJECT_DIR$/js/models/TemplateModel.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/templates/effects/YellowWhite.js" />
-        <option value="$PROJECT_DIR$/js/Graphomatic.js" />
         <option value="$PROJECT_DIR$/js/templates/effects/YellowWhite.svg" />
         <option value="$PROJECT_DIR$/js/templates/joyeux.js" />
         <option value="$PROJECT_DIR$/js/templates/joyeux.html" />
+        <option value="$PROJECT_DIR$/filters/desaturate.svg" />
+        <option value="$PROJECT_DIR$/js/templates/effects/Saturate.3.svg" />
+        <option value="$PROJECT_DIR$/js/templates/effects/Saturate3.svg" />
+        <option value="$PROJECT_DIR$/js/templates/effects/Saturate3.js" />
+        <option value="$PROJECT_DIR$/js/templates/arty.html" />
+        <option value="$PROJECT_DIR$/js/templates/elegant.js" />
+        <option value="$PROJECT_DIR$/js/Graphomatic.js" />
+        <option value="$PROJECT_DIR$/js/templates/elegant.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/templates/arty.js" />
+        <option value="$PROJECT_DIR$/js/models/ContentModel.js" />
+        <option value="$PROJECT_DIR$/js/templates/rythme.js" />
+        <option value="$PROJECT_DIR$/js/templates/rythme.html" />
       </list>
     </option>
   </component>
@@ -192,6 +185,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,72 +250,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="effects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/elements" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -339,12 +288,29 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="a56dc0c1-48d6-4806-9718-903ac0de8d86" server_name="Graphomatic">
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8cf2d69b-05a3-43d8-b0a4-d97e2f5f5082" name="Default" comment="" />
@@ -354,20 +320,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2125" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25390625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -389,6 +358,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="rythme" />
+    <option name="LAST_COMMIT_MESSAGE" value="rythme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -396,7 +367,83 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/templates/arty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="33" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Graphomatic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="51" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1335">
+          <folding>
+            <marker date="1401537926000" expanded="false" signature="1800:1815" placeholder="..." />
+            <marker date="1401537926000" expanded="false" signature="2017:2032" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/TemplateModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="576" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/joyeux.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1758" column="72" selection-start="160704" selection-end="160704" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1125">
+          <folding>
+            <element signature="tag#g#0;tag#g#1;tag#svg#0" expanded="false" />
+            <element signature="tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
+            <element signature="tag#g#0;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
+            <element signature="tag#g#1;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="59" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="29" selection-start="159" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/TypologyCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="40" selection-start="2634" selection-end="2643" vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filters/yellow.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="78" selection-start="568" selection-end="611" vertical-scroll-proportion="0.11516854" vertical-offset="8" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="59" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <folding />
         </state>
       </provider>
@@ -404,9 +451,56 @@
     <entry file="file://$PROJECT_DIR$/js/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filters/desaturate.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="343" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/Saturate3.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="41" selection-start="32" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/Saturate3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/boilerplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/joyeux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="291" selection-end="291" vertical-scroll-proportion="0.1474719" vertical-offset="0" max-vertical-offset="712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/elegant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="29" selection-start="159" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -419,72 +513,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="33" selection-start="1715" selection-end="1715" vertical-scroll-proportion="-24.833334" vertical-offset="334" max-vertical-offset="1320">
+        <state line="63" column="63" selection-start="1833" selection-end="1833" vertical-scroll-proportion="-12.625" vertical-offset="642" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/TemplateModel.js">
+    <entry file="file://$PROJECT_DIR$/js/templates/arty.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="576" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filters/yellow.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="78" selection-start="568" selection-end="611" vertical-scroll-proportion="0.11516854" vertical-offset="8" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Graphomatic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="51" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1335">
-          <folding>
-            <marker date="1401381247000" expanded="false" signature="1799:1814" placeholder="..." />
-            <marker date="1401381247000" expanded="false" signature="2016:2031" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="159" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/effects/YellowWhite.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="59" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/joyeux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="291" selection-end="291" vertical-scroll-proportion="0.1474719" vertical-offset="0" max-vertical-offset="712">
+        <state line="14" column="3" selection-start="375" selection-end="375" vertical-scroll-proportion="0.30478954" vertical-offset="0" max-vertical-offset="689">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/models/ContentModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.454955" vertical-offset="969" max-vertical-offset="1710">
+        <state line="107" column="50" selection-start="2676" selection-end="2676" vertical-scroll-proportion="0.8476052" vertical-offset="496" max-vertical-offset="1245">
+          <folding>
+            <element signature="e#632#1512#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/arty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="59" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.49172932" vertical-offset="33" max-vertical-offset="885">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/TemplateModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="386" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/elegant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="17" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/rythme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding>
+            <marker date="1401743228000" expanded="true" signature="122:418" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templates/joyeux.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1758" column="72" selection-start="160704" selection-end="160704" vertical-scroll-proportion="0.24590164" vertical-offset="420" max-vertical-offset="1125">
+        <state line="1777" column="45" selection-start="161515" selection-end="161527" vertical-scroll-proportion="0.59398496" vertical-offset="460" max-vertical-offset="1125">
           <folding>
             <element signature="tag#g#0;tag#g#1;tag#svg#0" expanded="false" />
             <element signature="tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
             <element signature="tag#g#0;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
             <element signature="tag#g#1;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Graphomatic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="57" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="1335">
+          <folding>
+            <marker date="1401537926000" expanded="false" signature="1800:1815" placeholder="..." />
+            <marker date="1401537926000" expanded="false" signature="2017:2032" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/rythme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="10" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.8033573" vertical-offset="265" max-vertical-offset="1215">
+          <folding />
         </state>
       </provider>
     </entry>
