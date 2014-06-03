@@ -1,11 +1,13 @@
-define(['models/TemplateModel','text!templates/beau.html','templates/effects/BlackAndWhite'],function(TemplateModel,HTML,BlackAndWhite){
+define(['models/TemplateModel','text!templates/beau.html','templates/effects/Venus'],function(TemplateModel,HTML,Venus){
 	
 	return TemplateModel.extend({
+        defaults:{
+            //  'rebaseDocDescription':'une image simple'
+        },
 		template:_.template(HTML),
-		font:'DINPro-Regular',
-		color:'#ddd',
+		color:'transparent',
 		effect:{
-			'#img':BlackAndWhite
+			'#image':Venus
 		}
 	});
 	

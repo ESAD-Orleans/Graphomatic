@@ -1,4 +1,4 @@
-define(['models/TemplateModel','text!templates/arty.html','templates/effects/Saturate3'],function(TemplateModel,HTML,Saturate3){
+define(['models/TemplateModel','text!templates/arty.html','templates/effects/Arty'],function(TemplateModel,HTML,Arty){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
@@ -8,7 +8,7 @@ define(['models/TemplateModel','text!templates/arty.html','templates/effects/Sat
         },
 		color:'#fff',
         effect:{
-            '#image':Saturate3
+            '#image':Arty
         }
 	});
 	

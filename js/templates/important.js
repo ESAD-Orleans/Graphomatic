@@ -2,7 +2,10 @@ define(['models/TemplateModel','text!templates/important.html'],function(Templat
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
-		font:'DINPro-Regular',
+		font:{
+            '*':'DINPro-Regular',
+            '#title1':'AuthenticStencilCom-Black'
+        },
 		color:'#ff0'
 	});
 	

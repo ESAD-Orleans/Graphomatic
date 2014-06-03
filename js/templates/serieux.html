@@ -8,34 +8,41 @@
     </pattern>
 </defs>
 
+<g id="image">
+	<rect x="10" y="10" fill="url(#image_pattern)" width="400" height="400"/>
+</g>
+
 <g id="signe">
 	<rect x="10" y="420" fill="none" stroke="#000000" stroke-width="2" width="400" height="160"/>
 	<line fill="none" stroke="#000000" stroke-width="2" x1="400" y1="436" x2="304" y2="553"/>
-</g>
-
-<g id="img">
-	<rect x="10" y="10" fill="url(#image_pattern)" width="400" height="400"/>
 </g>
 
 <g id="titles">
 
 	<g id="title1" transform="translate(20 433)" width="300" height="37">
 		<rect fill="none" width="300" height="37"/>
-		<text transform="translate(0,37)" fill="#010201" font-size="38" letter-spacing="2"><%= get('title1').toUpperCase() %></text>
+		<text transform="translate(0,37)" fill="#000000" font-size="38" letter-spacing="2"><% t1 = get('title1'), a = t1.charAt(0).toUpperCase(), b = t1.slice(1) %><%= a+b %></text>
 	</g>
 	
 	<g id="title2">
-		<text transform="translate(200 480)" text-anchor="end" >
+		<text transform="translate(200 480)" text-anchor="end" font-size="8" >
 		<% var title2Height = 12; split('title2').each(function(v, i){ %><tspan x="0" y="<%= title2Height %>"><%= v %></tspan><% title2Height+=12 }) %></text>
 	</g>
 	
 	<g id="details">
 		<rect x="58" y="480" fill="none" width="166" height="83"/>
-		<text transform="translate(200 <%= 480+title2Height %>)" text-anchor="end" >
-		<% var level = 0; split('details').each(function(v, i){ level+=i %><tspan x="0" y="<%= i*12 %>"><%= v %></tspan><% }) %>
+		<text transform="translate(200 <%= 480+title2Height %>)" text-anchor="end" font-size="8" >
+		<% var level = 0; split('details').each(function(v, i){ level+=i %><tspan x="0" y="<%= i*12 %>"><%= v %></tspan><% title2Height+=12 }) %>
 		</text>
 	</g>
-	
+
+	<g id="date">
+		<rect x="58" y="480" fill="none" width="166" height="83"/>
+		<text transform="translate(200 <%= 480+title2Height %>)" text-anchor="end" font-size="8" >
+		<tspan x="0" y="0"><%= date('dd/mm/yy') %></tspan>
+		</text>
+	</g>
+
 	
 </g>
 

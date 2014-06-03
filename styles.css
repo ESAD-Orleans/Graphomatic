@@ -11,7 +11,7 @@ html,body{
 }
 .tools {
 	position: fixed;
-	top:100px;
+	top:50px;
 	left:440px;
 	width:auto;
 	float:left;
@@ -26,7 +26,7 @@ html,body{
 	width:300px;
 	display:block;
 }
-input, textarea, select{
+input, textarea, select, button{
 	border:none;
 	box-sizing:border-box;
 	padding:5px 5px;
@@ -77,6 +77,18 @@ input[type=submit]{
 	margin:auto;
 	width:100%;
 	height:100%;
+}
+input[type=file]{
+    position: absolute;
+    top:20px;
+    opacity: 0;
+}
+#button_image{
+    width:100%;
+    background: #fff;
+}
+button#print{
+    margin-top: 15px;
 }
 @media screen{
 	#printfile{

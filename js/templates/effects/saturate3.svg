@@ -1,3 +1,0 @@
-<filter xlink:type="simple" id="Saturate3">
-    <feColorMatrix values="0.3" type="saturate" result="fpr1" in="SourceGraphic"/>
-</filter>

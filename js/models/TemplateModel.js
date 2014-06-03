@@ -57,7 +57,7 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 				if(filter=='*'){
 					$('.doc,svg',doc).css({fontFamily:option});
 				}else{
-					$('g'+filter+' text, text'+filter,doc).attr({'font-family':option});
+					$('g'+filter+' text, g'+filter+' use, text'+filter,doc).attr({'font-family':option});
 				}				
 				break;
 				

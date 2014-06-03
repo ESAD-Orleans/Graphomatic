@@ -6,7 +6,11 @@ define(['jquery','underscore','backbone','models/EffectModel'],function($,_,Back
 		run:function(){
 			var g = $('<g class="filter" filter="url(#'+this.filterId+')"></g>');
 			this.$el.wrap(g);
+            this.afterRun();
 		},
+        afterRun:function(){
+
+        },
 		setup:function(){
 			var svgTags = _.template(this.filterTemplate)();
 			$('#doc svg defs').append($(svgTags));

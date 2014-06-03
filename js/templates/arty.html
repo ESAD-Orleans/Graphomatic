@@ -18,12 +18,12 @@
             <text y="16" font-size="20"><%= date('dddd dd mmm yyyy') %></text>
         </g>
         <g id="details">
-            <text><% var tspanIndex = 0;
-                        detailsSplit = split('details','\n');
+            <text text-anchor="end"><% var tspanIndex = 0;
+                        detailsSplit = split('details',' ');
                 detailsSplit.each(function(words){
                 tspanIndex++;
                 y = tspanIndex*20-detailsSplit.size()*20-10
-                %><tspan x="-200" y="<%= y %>"><%= words %></tspan><% }) %></text>
+                %><tspan x="0" y="<%= y %>"><%= words %></tspan><% }) %></text>
         </g>
     </g>
 
@@ -42,8 +42,10 @@
 <use x="0" y="0" xlink:href="#title1" transform="translate(210 140) scale(-1,-1) " />
 <use x="0" y="0" xlink:href="#title1" transform="translate(210 140) scale(-1,1) " />
 
-<use xlink:href="#date" transform="translate(40 280)"/>
-<use xlink:href="#date" transform="translate(40 280) scale(1,-1)"/>
+<use xlink:href="#date" transform="translate(210 280)"/>
+<use xlink:href="#date" transform="translate(210 280) scale(1,-1)"/>
+<use xlink:href="#date" transform="translate(210 280) scale(-1,-1)"/>
+<use xlink:href="#date" transform="translate(210 280) scale(-1,1)"/>
 
 <use xlink:href="#details" transform="translate(210 420)"/>
 <use xlink:href="#details" transform="translate(210 420) scale(1,-1)"/>

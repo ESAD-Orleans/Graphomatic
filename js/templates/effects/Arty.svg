@@ -1,0 +1,3 @@
+<filter xlink:type="simple" id="Arty">
+	<feGaussianBlur stdDeviation="5"/>
+</filter>

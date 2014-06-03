@@ -9,7 +9,8 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 	var Graphomatic = Backbone.View.extend({
 		el:'body',
 		events:{
-			'change input,select':'forceSubmitForm'
+			'change input,select':'forceSubmitForm',
+            'click button#print':'print'
 		},
 		initialize:function(){
 			//
@@ -77,7 +78,12 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 			this.typologies.run(this.contents);
 			$('#printfile').html(_.template(printfile)(this.contents));
 			return false;
-		}
+		},
+        print:function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            window.print();
+        }
 	});
 	
 	return new Graphomatic();
