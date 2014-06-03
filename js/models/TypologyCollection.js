@@ -136,9 +136,15 @@ define(['jquery','underscore','backbone',
                 _Run(n);
             }
 			var rawHTML = $('#doc').html();
-			$('#doc').html('').html(rawHTML);			
+			$('#doc').html('').html(rawHTML);
+            $('.spinner').stop().delay(200).fadeOut(100,function(){$(this).remove()});
+            $('.spinner .gif').fadeIn(50);
+            //
+            content.set('operations',operations);
+            content.set('typologies',typologies);
 
-		}
+
+        }
 	});
 	
 });

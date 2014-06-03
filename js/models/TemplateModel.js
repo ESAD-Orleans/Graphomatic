@@ -15,7 +15,10 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 		rebaseDoc:function(c){
 			var innerHTML = $(this.template(c));
 			$('#signe',innerHTML).html('').removeAttr();
-			$('#doc').html(innerHTML);
+			$('#doc')
+                .html(innerHTML)
+                .append($("<div class='spinner'><div class='gif'></div></div>"))
+            ;
             this.afterRebaseDoc(c);
 		},
         afterRebaseDoc:function(c){},
@@ -71,7 +74,7 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 					//$('path,polygon',doc).attr({fill:option,stroke:option});
 				}else{
 					$(filter).find('span,div,h1,h2,h3,h4,h5,h6,p').css({color:option});
-					$('g'+filter+' text, text'+filter,doc).attr({fill:option});
+					$('g'+filter+' text, g'+filter+' use, text'+filter,doc).attr({fill:option});
 					$(filter,doc).find().attr({stroke:option});
 				}
 				break;

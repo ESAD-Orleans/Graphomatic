@@ -1,12 +1,20 @@
-define(['models/TemplateModel','text!templates/important.html'],function(TemplateModel,HTML){
+define(['models/TemplateModel','text!templates/important.html','text!templates/fonts.css','templates/effects/ExtrudeText'],function(TemplateModel,HTML,fonts,ExtrudeText){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
-		font:{
-            '*':'DINPro-Regular',
-            '#title1':'AuthenticStencilCom-Black'
+        afterRebaseDoc:function(){
+            var t = $('<style>'+_.template(fonts)({font:'AuthenticStencilCom-Black'})+'</style>');
+            $('#doc').append(t);
         },
-		color:'#ff0'
+		font:{
+            '*':'AuthenticStencilCom-Black'
+        },
+		color:{
+            '#title1':'#ff0'
+        },
+        effect:{
+            '#title1':ExtrudeText
+        }
 	});
 	
 });

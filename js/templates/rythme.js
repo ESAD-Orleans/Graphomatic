@@ -9,13 +9,13 @@ define(['models/TemplateModel','text!templates/rythme.html','text!templates/font
            // 'applyFontDescription':'avec une typographie rythmée'
         },
         afterRebaseDoc:function(){
-            var t = $('<style>'+_.template(fonts)({font:'DINPro-Black'})+'</style>');
-          $('#doc').append(t);
+            var t = $('<style>'+_.template(fonts)({font:'FagoCoLf-ExtraBoldItalicCaps'})+'</style>');
+            $('#doc').append(t);
         },
 		template:_.template(HTML),
 		font:{
             '*':'DINPro-Regular',
-            '#title1':'DINPro-Black'
+            '#title1':'FagoCoLf-ExtraBoldItalicCaps'
         },
 		color:{
             '*':'#000',

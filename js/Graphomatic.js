@@ -45,6 +45,8 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 			this.loadImage(this.contents.get('image').url);
             //
             $('option[disabled').remove();
+            //
+            $('body').addClass('ready');
 		},
 		forceSubmitForm:function(){
 			$('form').submit();

@@ -10,6 +10,7 @@ html,body{
 	position:relative;
 }
 .tools {
+    display: none;
 	position: fixed;
 	top:50px;
 	left:440px;
@@ -78,6 +79,26 @@ input[type=submit]{
 	width:100%;
 	height:100%;
 }
+#doc > .spinner{
+    position: absolute;
+    background:#fff;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+#doc > .spinner .gif{
+    background-image: url('images/spinner.gif');
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    width:60px;
+    height:60px;
+    display: none;
+}
 input[type=file]{
     position: absolute;
     top:20px;
@@ -90,11 +111,34 @@ input[type=file]{
 button#print{
     margin-top: 15px;
 }
-@media screen{
-	#printfile{
-		display:none;
-	}
+#printfile{
+    position:absolute;
+    left:10px;
+    top:40px;
+    width:320px;
+    background: #fff;
+    color:#000;
 }
+@media screen{
+    .ready .tools{
+        display: block;
+    }
+}
+@media screen and (min-width:1000px ){
+    #doc{
+        left:350px;
+        right:350px;
+        top:0;
+        bottom: 0;
+        margin: auto;
+    }
+    .tools{
+        position:absolute;
+        right:20px;
+        left:auto;
+    }
+}
+
 @page{
 	margin: 0mm;
 }

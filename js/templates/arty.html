@@ -8,7 +8,7 @@
     </pattern>
 
     <g id="titles" fill="#fff">
-        <g id="title1">
+        <g id="title1Pattern">
             <text text-anchor="end" y="-30" font-size="38" letter-spacing="2"><%= get('title1') %></text>
         </g>
         <g id="title2">
@@ -37,10 +37,13 @@
     <image xlink:href="images/arty-graphic.png" width="420" height="594" />
 </g>
 
-<use x="0" y="0" xlink:href="#title1" transform="translate(210 140)" />
-<use x="0" y="0" xlink:href="#title1" transform="translate(210 140) scale(1,-1) " />
-<use x="0" y="0" xlink:href="#title1" transform="translate(210 140) scale(-1,-1) " />
-<use x="0" y="0" xlink:href="#title1" transform="translate(210 140) scale(-1,1) " />
+<g id="title1">
+ <use x="0" y="0" xlink:href="#title1Pattern" transform="translate(210 140)" />
+<use x="0" y="0" xlink:href="#title1Pattern" transform="translate(210 140) scale(1,-1) " />
+<use x="0" y="0" xlink:href="#title1Pattern" transform="translate(210 140) scale(-1,-1) " />
+<use x="0" y="0" xlink:href="#title1Pattern" transform="translate(210 140) scale(-1,1) " />
+
+</g>
 
 <use xlink:href="#date" transform="translate(210 280)"/>
 <use xlink:href="#date" transform="translate(210 280) scale(1,-1)"/>
