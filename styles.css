@@ -115,9 +115,14 @@ button#print{
     position:absolute;
     left:10px;
     top:40px;
-    width:320px;
-    background: #fff;
+    width:300px;
+    padding: 10px;
+    background: #999;
     color:#000;
+    overflow: auto;
+}
+#printfile pre{
+    max-width: 100%;
 }
 @media screen{
     .ready .tools{

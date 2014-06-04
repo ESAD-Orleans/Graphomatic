@@ -1,2 +1,7 @@
-vous avez sélectionnez : 
-<%= get('typology').pluck('label').join(', ') %>
+vous avez sélectionnez :
+<ul><li>
+<%= get('typology').pluck('label').join('</li><li>') %>
+</li></ul>
+<pre>
+<%= get('printDescription') %>
+</pre>

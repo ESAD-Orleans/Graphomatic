@@ -123,12 +123,16 @@ define(['jquery','underscore','backbone',
             var operations = ['rebaseDoc','insertGraphic','applyFont','applyColor','applyEffect'];
 			var typologies = this.randomSelectedTypologies(operations.length);
             //
+            var printDescription = "";
+            //
             function _Run(id){
                 //
                 var t = typologies.value()[id].template,
                     description = t.get(operations[id]+'Description');
-                description = description ? description:'('+operations[id]+')';
-                console.log(id+' : '+typologies.value()[id].id + ' : '+description );//+template.get('descriptions')[]);
+                description = description ? description:(typologies.value()[id].id +' ('+operations[id]+')');
+                printDescription += description+" \n";
+                console.log(printDescription);
+                //id+' : '+typologies.value()[id].id + ' : '+description );//+template.get('descriptions')[]);
                 t[operations[id]](content);
             }
             //
@@ -141,7 +145,7 @@ define(['jquery','underscore','backbone',
             $('.spinner .gif').fadeIn(50);
             //
             content.set('operations',operations);
-            content.set('typologies',typologies);
+            content.set('printDescription',printDescription);
 
 
         }

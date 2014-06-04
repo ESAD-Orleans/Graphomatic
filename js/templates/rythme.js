@@ -5,8 +5,8 @@ define(['models/TemplateModel','text!templates/rythme.html','text!templates/font
             TemplateModel.prototype.rebaseDoc(c);
         },*/
         defaults:{
-           // 'rebaseDocDescription':'une composition rythmée',
-           // 'applyFontDescription':'avec une typographie rythmée'
+            'rebaseDocDescription':'une composition rythmée',
+            'applyFontDescription':'avec une typographie rythmée'
         },
         afterRebaseDoc:function(){
             var t = $('<style>'+_.template(fonts)({font:'FagoCoLf-ExtraBoldItalicCaps'})+'</style>');
