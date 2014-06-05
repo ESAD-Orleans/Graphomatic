@@ -5,6 +5,9 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 		'dateFormat'], function($,_,Backbone,jqueryForm,colorThief,ContentModel,TypologyCollection,printfile) {
 	
 	console.log('starting Graphomatic');
+
+    var router = new Backbone.Router();
+    Backbone.history.start();
 	
 	var Graphomatic = Backbone.View.extend({
 		el:'body',
@@ -39,8 +42,11 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 					}
 				}
 			});
+            //
+            //
 			//
-			this.submit();
+			//this.submit();
+            this.contents = new ContentModel();
 			//
 			this.loadImage(this.contents.get('image').url);
             //
@@ -77,7 +83,17 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 			}
 			this.contents = new ContentModel();
 			this.typologies = new TypologyCollection();
-			this.typologies.run(this.contents);
+            if(this.typologies.selectedTypologies().length==0){alert('veuillez selectionner au moins un qualificatif'); return false;}
+			//
+            this.typologies.run(this.contents);
+            //
+            var hash = "";
+            this.contents.get('currentTypologies').each(function(t,i){
+                if(i>0){hash+="/"}
+                hash+= t.id;
+            })
+            //router.navigate(hash);
+            //
 			$('#printfile').html(_.template(printfile)(this.contents));
 			return false;
 		},

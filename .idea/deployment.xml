@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Graphomatic (nterfaces)" compareModeInSync="TIMESTAMP">
+  <component name="PublishConfigData" serverName="Graphitron3125 (nterfaces)" compareModeInSync="TIMESTAMP">
     <serverData>
-      <paths name="Graphomatic (nterfaces)">
+      <paths name="Graphitron3125 (nterfaces)">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

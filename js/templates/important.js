@@ -10,7 +10,7 @@ define(['models/TemplateModel','text!templates/important.html','text!templates/f
             '*':'AuthenticStencilCom-Black'
         },
 		color:{
-            '#title1':'#ff0'
+            '#title1':'#f00'
         },
         effect:{
             '#title1':ExtrudeText

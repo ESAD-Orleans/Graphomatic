@@ -1,4 +1,4 @@
-define(['models/TemplateModel','text!templates/elegant.html'],function(TemplateModel,HTML){
+define(['models/TemplateModel','text!templates/elegant.html','templates/effects/Elegant'],function(TemplateModel,HTML,Elegant){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
@@ -9,8 +9,9 @@ define(['models/TemplateModel','text!templates/elegant.html'],function(TemplateM
 		color:{
 			'#titles':'#000'
 		},
-		graphic:{
-		}
+        effect:{
+            '#signe':Elegant
+        }
 	});
 	
 });

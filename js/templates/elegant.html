@@ -11,7 +11,7 @@
 </defs>
 
     <g transform="translate(0 0)" width="420" height="420">
-        <text x="180" y="400" font-size="400" fill="url(#image_pattern)" font-style="italic" text-anchor="middle"><%= get('title1').charAt(0).toUpperCase() %></text>
+       <text x="180" y="400" font-size="400" fill="#000" font-style="italic" text-anchor="middle"><%= get('title1').charAt(0).toUpperCase() %></text>
     </g>
 
     <g id="image"></g>
@@ -20,13 +20,13 @@
 
         <g transform="translate(210,570)">
             <g id="title1" transform="translate(0 0)" width="300" height="37">
-                <text text-anchor="middle" fill="#000" font-size="6" letter-spacing="2"><%= get('title1').toUpperCase() %></text>
+                <text class="ignore-elegant" text-anchor="middle" fill="#000" font-size="6" letter-spacing="2"><%= get('title1').toUpperCase() %></text>
             </g>
             <g id="date" transform="translate(0 8)">
-                <text text-anchor="middle" fill="#000" font-size="6"><%= date('dddd dd mmmm yyyy').toLowerCase() %></text>
+                <text class="ignore-elegant" text-anchor="middle" fill="#000" font-size="6"><%= date('dddd dd mmmm yyyy').toLowerCase() %></text>
             </g>
             <g id="details" transform="translate(0 16)">
-                <text text-anchor="middle" fill="#000" font-size="6"><%= get('details') %></text>
+                <text class="ignore-elegant" text-anchor="middle" fill="#000" font-size="6"><%= get('details') %></text>
             </g>
         </g>
 

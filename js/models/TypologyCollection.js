@@ -1,6 +1,7 @@
 define(['jquery','underscore','backbone',
+		'models/TemplateModel',
 		'templates/base',
-		
+
 		        // arty
 				// dynamique
 				// elegant
@@ -26,6 +27,7 @@ define(['jquery','underscore','backbone',
 
 		],
 	function($,_,Backbone,
+        TemplateModel,
 		TemplateBase
 		
 		        , arty
@@ -41,7 +43,9 @@ define(['jquery','underscore','backbone',
 		){
 	//
 	// 
-	//
+	// liste des opérations
+    var operations = ['rebaseDoc','insertGraphic','applyFont','applyColor','applyEffect'];
+    //
 	var TypologyFactory = function(id){
 		switch(id){
 			case 'arty' : return arty;
@@ -108,9 +112,11 @@ define(['jquery','underscore','backbone',
 			return copy.pop();
 		},
         randomSelectedTypologies:function(l){
-            var a = _([]);
+            var a = _([]), rT;
             for(var n=0;n<l;n++){
-                a.push(this.randomSelectedTypology());
+                rT = this.randomSelectedTypology();
+                //console.log(rT.template.get(operations[n]+'Description'))
+                a.push(rT);
             }
             return a;
         },
@@ -119,8 +125,7 @@ define(['jquery','underscore','backbone',
 		},
 		run:function(content){
 			//
-            console.log('run >>>');
-            var operations = ['rebaseDoc','insertGraphic','applyFont','applyColor','applyEffect'];
+            //console.log('run >>>');
 			var typologies = this.randomSelectedTypologies(operations.length);
             //
             var printDescription = "";
@@ -131,7 +136,7 @@ define(['jquery','underscore','backbone',
                     description = t.get(operations[id]+'Description');
                 description = description ? description:(typologies.value()[id].id +' ('+operations[id]+')');
                 printDescription += description+" \n";
-                console.log(printDescription);
+                //console.log(printDescription);
                 //id+' : '+typologies.value()[id].id + ' : '+description );//+template.get('descriptions')[]);
                 t[operations[id]](content);
             }
@@ -145,6 +150,7 @@ define(['jquery','underscore','backbone',
             $('.spinner .gif').fadeIn(50);
             //
             content.set('operations',operations);
+            content.set('currentTypologies',typologies);
             content.set('printDescription',printDescription);
 
 
