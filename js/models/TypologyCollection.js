@@ -68,21 +68,12 @@ define(['jquery','underscore','backbone',
 	//
 	var Typology = Backbone.Model.extend({
 		initialize:function(o){
-			var typology = this;
-			this.el = o;
-			_(o.attributes).each(function(v){
-				var val = v.nodeName, name = v.nodeValue;
-				switch(val){
-					case 'selected': case 'disabled': 
-						typology.set(val,true);
-					break;
-					default : 
-						typology.set(name,val);
-					break;
-				}
-			});
+			this.el = o.checkbox;
+            this.$el = $(this.el);
+			this.set('checked',this.$el.is(':checked'));
 			//
-			this.id=this.get('value');
+            console.log(this.$el.val())
+			this.id=this.$el.val();
 			this.template = new (TypologyFactory(this.id))();
 		},
 		code : function(){
@@ -93,18 +84,23 @@ define(['jquery','underscore','backbone',
 		},
 		selected : function(){
 			return this.get('selected');
+		},
+		checked : function(){
+			return this.get('checked');
 		}
 	});
 
 	return Backbone.Collection.extend({
 		initialize:function(){
 			var c = this;
-			$('select#typology option').each(function(){
-				c.add(new Typology(this));
+			$('#typology :checkbox').each(function(){
+                var checkbox = this,
+                    typology = new Typology({checkbox:this});
+				c.add(typology);
 			});
 		},
 		selectedTypologies:function(){
-			return this.filter(function(t){return t.selected();});
+			return this.filter(function(t){return t.checked();});
 		},
 		randomSelectedTypology:function(){
 			var copy = this.selectedTypologies();

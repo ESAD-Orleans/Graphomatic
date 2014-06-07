@@ -1,8 +1,9 @@
-define(['jquery','underscore','backbone','jquery.form','color-thief',
+define(['jquery','underscore','backbone','jquery.form',//'color-thief',
 		'models/ContentModel',
 		'models/TypologyCollection',
 		'text!templates/printfile.html',
-		'dateFormat'], function($,_,Backbone,jqueryForm,colorThief,ContentModel,TypologyCollection,printfile) {
+		'dateFormat'], function($,_,Backbone,jqueryForm,//colorThief,
+                                ContentModel,TypologyCollection,printfile) {
 	
 	console.log('starting Graphomatic');
 
@@ -60,7 +61,7 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 		loadImage:function(path){
 			var image = new Image();
 			$(image).load(function(){
-				var cT = new ColorThief(),
+				/*var cT = new ColorThief(),
 				 cTColor = cT.getColor(image),
 				 cTPalette = cT.getPalette(image,6),
 				 imageInput = $('input#image');
@@ -72,15 +73,15 @@ define(['jquery','underscore','backbone','jquery.form','color-thief',
 					);
 				});
 				var rgb = cTColor[0]+','+cTColor[1]+','+cTColor[2];
-				imageInput.after('<div class="palette main" style="background:rgb('+rgb+')"></div>');
+				imageInput.after('<div class="palette main" style="background:rgb('+rgb+')"></div>');*/
 				//imageInput.after($('<img class="preview" src="'+path+'" />'));
 			});
 			image.src= path;
 		},
 		submit:function(e){
-			if(_.isNull($('select#typology').val())){
+			/*if(_.isNull($('select#typology').val())){
 				$('select#typology').val('base');
-			}
+			}*/
 			this.contents = new ContentModel();
 			this.typologies = new TypologyCollection();
             if(this.typologies.selectedTypologies().length==0){alert('veuillez selectionner au moins un qualificatif'); return false;}

@@ -22,12 +22,16 @@ html,body{
 	font-size:10px;
 	line-height:20px;
 }
+.tools form{
+    width:300px;
+    position:relative;
+}
 .tools label{
 	position:relative;
 	width:300px;
 	display:block;
 }
-input, textarea, select, button{
+input[type=text], input[type=date], input[type=submit], textarea, select, button{
 	border:none;
 	box-sizing:border-box;
 	padding:5px 5px;
@@ -40,6 +44,24 @@ input, textarea, select, button{
 	border-radius:0;
 	font-family:monospace;
 	font-size:10px;
+}
+label.base{
+    display: none;
+}
+fieldset#typology{
+    width:100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+}
+fieldset#typology label{
+    width:50%;
+    float: left;
 }
 select[multiple] option[disabled]{
 	display:none;

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Graphomatic.iml" filepath="$PROJECT_DIR$/.idea/Graphomatic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Graphitron.iml" filepath="$PROJECT_DIR$/.idea/Graphitron.iml" />
     </modules>
   </component>
 </project>

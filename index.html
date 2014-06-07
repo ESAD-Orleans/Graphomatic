@@ -51,25 +51,20 @@
         
          <label>
         	qualificatif
-            <select id="typology" multiple size="6">
-            
-            	<option value="base" label="base" disabled></option>
-            	
-            	<option value="arty" label="arty"></option> <!-- ok -->
-				<option value="beau" label="beau"></option>
-				<!-- <option value="dynamique" label="dynamique"></option> -->
-				<option value="elegant" label="elegant"></option> <!-- ok -->
-				<!-- <option value="impactant" label="impactant"></option> -->
-				<option value="important" label="important"></option>
-				<option value="joyeux" label="joyeux"></option> <!-- ok -->
-				<option value="rythme" label="rythme"></option>
-				<option value="serieux" label="serieux"></option>
-				<!-- <option value="singulier" label="singulier"></option> -->
-				
+         </label>
 
-            </select>
-        </label>
-        
+        <fieldset id="typology">
+            <!--<label class="base"><input checked type="checkbox" value="base"/></label>-->
+            <label><input type="checkbox" value="arty"/>Artistique</label>
+            <label><input type="checkbox" value="beau"/>Beau</label>
+            <label><input type="checkbox" value="elegant"/>Élegant</label>
+            <label><input type="checkbox" value="important"/>Important</label>
+            <label><input type="checkbox" value="joyeux"/>Joyeux</label>
+            <label><input type="checkbox" value="rythme"/>Rythme</label>
+            <label><input type="checkbox" value="serieux"/>Sérieux</label>
+        </fieldset>
+
+
         <input type="submit" value="Rafraichir !" />
 
         <label>

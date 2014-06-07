@@ -22,9 +22,9 @@ define(['jquery','underscore','backbone','dateFormat'],function($,_,Backbone){
 		initialize:function(o){
 			var model = this;
 			var typology = _([]);
-			$('#typology option:selected').each(function(){
+			$('#typology :checked').each(function(){
 				typology.push({
-					label:$(this).attr('label'),
+					label:$(this).parent().text(),
 					value:$(this).attr('value')
 				});
 			});
