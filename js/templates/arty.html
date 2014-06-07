@@ -8,9 +8,6 @@
     </pattern>
 
     <g id="titles" fill="#fff">
-        <g id="title1Pattern">
-            <text text-anchor="end" y="-30" font-size="38" letter-spacing="2"><%= get('title1') %></text>
-        </g>
         <g id="title2">
             <text text-anchor="end"><%= get('title2') %></text>
         </g>
@@ -38,10 +35,26 @@
 </g>
 
 <g id="title1">
- <use x="0" y="0" xlink:href="#title1Pattern" transform="translate(210 140)" />
-<use x="0" y="0" xlink:href="#title1Pattern" transform="translate(210 140) scale(1,-1) " />
-<use x="0" y="0" xlink:href="#title1Pattern" transform="translate(210 140) scale(-1,-1) " />
-<use x="0" y="0" xlink:href="#title1Pattern" transform="translate(210 140) scale(-1,1) " />
+ <def>
+    <g id="title1Pattern" fill="#fff">
+        <text text-anchor="end" y="-30" font-size="38" letter-spacing="2"><%= get('title1') %></text>
+    </g>
+ </def>
+ <g transform="translate(210 140)">
+     <g>
+        <use x="0" y="0" xlink:href="#title1Pattern" />
+     </g>
+     <g transform="scale(1,-1)">
+        <use x="0" y="0" xlink:href="#title1Pattern" />
+     </g>
+     <g transform="scale(-1,1)">
+        <use x="0" y="0" xlink:href="#title1Pattern" />
+     </g>
+     <g transform="scale(-1,-1)">
+        <use x="0" y="0" xlink:href="#title1Pattern" />
+     </g>
+ </g>
+
 
 </g>
 

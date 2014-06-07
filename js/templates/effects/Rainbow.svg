@@ -1,0 +1,21 @@
+<def>
+
+
+
+</def>
+
+<linearGradient id="rainbowGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="20">
+    <stop  offset="0" style="stop-color:#FF0000"/>
+    <stop  offset="0.1648" style="stop-color:#FFFF00"/>
+    <stop  offset="0.3333" style="stop-color:#00FF00"/>
+    <stop  offset="0.5" style="stop-color:#00FFFF"/>
+    <stop  offset="0.6666" style="stop-color:#0000FF"/>
+    <stop  offset="0.8333" style="stop-color:#FF00FF"/>
+    <stop  offset="1" style="stop-color:#FF0000"/>
+</linearGradient>
+
+<pattern id="rainbow" patternUnits="userSpaceOnUse" x="0" y="0"  width="20" height="20">
+	<rect x="0" y="0" width="20" height="20" fill="url('#rainbowGradient')" />
+</pattern>
+
+<use xlink:href="#rainbowGradient" />

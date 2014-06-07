@@ -10,10 +10,10 @@ define(['models/TemplateModel','text!templates/joyeux.html','templates/effects/Y
         },
 		color:{
 			'*':'#000',
-			'#spaghetti path':'#00ff00'
+            '#titles':'rainbow'
 		},
 		effect:{
-			'#image':YellowWhite
+			'#image':YellowWhite,
 		}
 	});
 	

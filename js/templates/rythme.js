@@ -1,4 +1,4 @@
-define(['models/TemplateModel','text!templates/rythme.html','text!templates/fonts.css'],function(TemplateModel,HTML,fonts){
+define(['models/TemplateModel','text!templates/rythme.html','text!templates/fonts.css','templates/effects/RepeatImage'],function(TemplateModel,HTML,fonts,RepeatImage){
 	
 	return TemplateModel.extend({
         /*rebaseDoc:function(c){
@@ -20,6 +20,9 @@ define(['models/TemplateModel','text!templates/rythme.html','text!templates/font
 		color:{
             '*':'#000',
             '#title1':'#ffff00'
+        },
+        effect:{
+            '#image':RepeatImage
         }
 	});
 	

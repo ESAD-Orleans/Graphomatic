@@ -1,4 +1,4 @@
-define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,_,Backbone,fonts){
+define(['jquery','underscore','backbone','text!templates/fonts.css','text!templates/effects/Rainbow.svg'],function($,_,Backbone,fonts,Rainbow){
 		
 	return Backbone.Model.extend({
 		initialize:function(){
@@ -68,6 +68,11 @@ define(['jquery','underscore','backbone','text!templates/fonts.css'],function($,
 				//
 				//
 				case 'color' :
+                if(option=='rainbow'){
+                    $('#doc svg').append($(Rainbow));
+                    option = 'url("#rainbow")';
+                    console.log(Rainbow,option);
+                }
 				if(filter=='*'){
 					$('.doc',doc).css({color:option});
 					$('text',doc).attr({fill:option});

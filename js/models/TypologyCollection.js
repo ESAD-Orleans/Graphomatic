@@ -72,7 +72,6 @@ define(['jquery','underscore','backbone',
             this.$el = $(this.el);
 			this.set('checked',this.$el.is(':checked'));
 			//
-            console.log(this.$el.val())
 			this.id=this.$el.val();
 			this.template = new (TypologyFactory(this.id))();
 		},

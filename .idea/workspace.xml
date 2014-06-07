@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf2d69b-05a3-43d8-b0a4-d97e2f5f5082" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Graphomatic.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/models/ContentModel.js" afterPath="$PROJECT_DIR$/js/models/ContentModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/effects/Rainbow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filters/rainbow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/effects/RepeatImage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/effects/Serieux.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Graphomatic.js" afterPath="$PROJECT_DIR$/js/Graphomatic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/models/TemplateModel.js" afterPath="$PROJECT_DIR$/js/models/TemplateModel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/models/TypologyCollection.js" afterPath="$PROJECT_DIR$/js/models/TypologyCollection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/arty.html" afterPath="$PROJECT_DIR$/js/templates/arty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/important.html" afterPath="$PROJECT_DIR$/js/templates/important.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/joyeux.html" afterPath="$PROJECT_DIR$/js/templates/joyeux.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/joyeux.js" afterPath="$PROJECT_DIR$/js/templates/joyeux.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/rythme.html" afterPath="$PROJECT_DIR$/js/templates/rythme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/rythme.js" afterPath="$PROJECT_DIR$/js/templates/rythme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/serieux.html" afterPath="$PROJECT_DIR$/js/templates/serieux.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templates/serieux.js" afterPath="$PROJECT_DIR$/js/templates/serieux.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Graphomatic.iws" />
@@ -36,7 +44,7 @@
       <file leaf-file-name="rythme.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/templates/rythme.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="82" selection-start="2107" selection-end="2107" vertical-scroll-proportion="-18.958334" vertical-offset="280" max-vertical-offset="1215">
+            <state line="6" column="70" selection-start="455" selection-end="455" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -45,16 +53,16 @@
       <file leaf-file-name="rythme.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/templates/rythme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="9" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+            <state line="1" column="4" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentModel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/models/ContentModel.js">
+      <file leaf-file-name="RepeatImage.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/templates/effects/RepeatImage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="21" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="1770">
+            <state line="19" column="25" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -63,25 +71,16 @@
       <file leaf-file-name="important.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/templates/important.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="42" selection-start="7642" selection-end="7642" vertical-scroll-proportion="-16.458334" vertical-offset="1000" max-vertical-offset="1785">
+            <state line="97" column="70" selection-start="7794" selection-end="7794" vertical-scroll-proportion="-12.083333" vertical-offset="1165" max-vertical-offset="1830">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="Serieux.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/templates/effects/Serieux.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="92" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.2920354" vertical-offset="642" max-vertical-offset="1320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Elegant.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/templates/effects/Elegant.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="43" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375">
+            <state line="39" column="21" selection-start="1449" selection-end="1449" vertical-scroll-proportion="-16.192308" vertical-offset="164" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -90,16 +89,16 @@
       <file leaf-file-name="joyeux.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/templates/joyeux.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="276" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="375">
+            <state line="12" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="important.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/templates/important.js">
+      <file leaf-file-name="serieux.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/templates/serieux.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="375">
+            <state line="5" column="14" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -108,16 +107,25 @@
       <file leaf-file-name="ExtrudeText.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/templates/effects/ExtrudeText.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="315">
+            <state line="9" column="27" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="53" selection-start="505" selection-end="505" vertical-scroll-proportion="-14.423077" vertical-offset="120" max-vertical-offset="2940">
+            <state line="136" column="22" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.42951542" vertical-offset="1845" max-vertical-offset="2940">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="important.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/templates/important.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -139,39 +147,42 @@
         <option value="$PROJECT_DIR$/js/templates/base.html" />
         <option value="$PROJECT_DIR$/js/templates/effects/YellowWhite.js" />
         <option value="$PROJECT_DIR$/js/templates/effects/YellowWhite.svg" />
-        <option value="$PROJECT_DIR$/js/templates/joyeux.js" />
-        <option value="$PROJECT_DIR$/js/templates/joyeux.html" />
         <option value="$PROJECT_DIR$/filters/desaturate.svg" />
         <option value="$PROJECT_DIR$/js/templates/effects/Saturate.3.svg" />
         <option value="$PROJECT_DIR$/js/templates/effects/Saturate3.svg" />
-        <option value="$PROJECT_DIR$/js/templates/serieux.js" />
         <option value="$PROJECT_DIR$/js/models/SVGFilterEffect.js" />
         <option value="$PROJECT_DIR$/js/templates/beau.html" />
-        <option value="$PROJECT_DIR$/js/templates/serieux.html" />
         <option value="$PROJECT_DIR$/js/templates/singulier.html" />
         <option value="$PROJECT_DIR$/js/templates/impactant.html" />
         <option value="$PROJECT_DIR$/js/templates/dynamique.html" />
         <option value="$PROJECT_DIR$/js/templates/beau.js" />
         <option value="$PROJECT_DIR$/js/templates/effects/Saturate3.js" />
         <option value="$PROJECT_DIR$/js/templates/effects/Arty.js" />
-        <option value="$PROJECT_DIR$/js/templates/rythme.html" />
         <option value="$PROJECT_DIR$/js/templates/effects/Venus.js" />
-        <option value="$PROJECT_DIR$/js/templates/arty.html" />
         <option value="$PROJECT_DIR$/js/templates/effects/ExtrudeText.js" />
-        <option value="$PROJECT_DIR$/js/models/TemplateModel.js" />
-        <option value="$PROJECT_DIR$/js/templates/rythme.js" />
         <option value="$PROJECT_DIR$/js/templates/arty.js" />
         <option value="$PROJECT_DIR$/js/templates/printfile.html" />
         <option value="$PROJECT_DIR$/js/templates/important.js" />
-        <option value="$PROJECT_DIR$/js/templates/important.html" />
         <option value="$PROJECT_DIR$/js/templates/elegant.js" />
         <option value="$PROJECT_DIR$/js/templates/elegant.html" />
         <option value="$PROJECT_DIR$/js/templates/effects/Elegant.js" />
-        <option value="$PROJECT_DIR$/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/models/ContentModel.js" />
+        <option value="$PROJECT_DIR$/js/templates/serieux.js" />
         <option value="$PROJECT_DIR$/js/models/TypologyCollection.js" />
+        <option value="$PROJECT_DIR$/js/templates/arty.html" />
+        <option value="$PROJECT_DIR$/js/templates/serieux.html" />
+        <option value="$PROJECT_DIR$/js/templates/joyeux.html" />
+        <option value="$PROJECT_DIR$/js/templates/important.html" />
+        <option value="$PROJECT_DIR$/js/templates/effects/Serieux.js" />
         <option value="$PROJECT_DIR$/js/Graphomatic.js" />
+        <option value="$PROJECT_DIR$/js/templates/effects/Rainbow.html" />
+        <option value="$PROJECT_DIR$/js/models/TemplateModel.js" />
+        <option value="$PROJECT_DIR$/js/templates/joyeux.js" />
+        <option value="$PROJECT_DIR$/js/templates/rythme.html" />
+        <option value="$PROJECT_DIR$/js/templates/rythme.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/templates/effects/RepeatImage.js" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -240,79 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphitron" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphitron" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="effects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphitron" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphitron" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphomatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
+              <option name="myItemId" value="filters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,12 +320,18 @@
       <created>1401368378539</created>
       <updated>1401368378539</updated>
     </task>
+    <task id="LOCAL-00001" summary="- de créer les boutons &quot;checkbox&quot;  de sélection pour éviter d'avoir à passer par shift pour sélectionner plusieurs typologies. &#10;- d'enlever le système qui calcule la couleur des images.">
+      <created>1402136013135</created>
+      <updated>1402136013135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -396,15 +341,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24296875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -423,40 +367,13 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="rythme" />
-    <option name="LAST_COMMIT_MESSAGE" value="rythme" />
+    <MESSAGE value="- de créer les boutons &quot;checkbox&quot;  de sélection pour éviter d'avoir à passer par shift pour sélectionner plusieurs typologies. &#10;- d'enlever le système qui calcule la couleur des images." />
+    <option name="LAST_COMMIT_MESSAGE" value="- de créer les boutons &quot;checkbox&quot;  de sélection pour éviter d'avoir à passer par shift pour sélectionner plusieurs typologies. &#10;- d'enlever le système qui calcule la couleur des images." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/models/TypologyCollection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="40" selection-start="2634" selection-end="2643" vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/elegant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/elegant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/arty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="33" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1320">
@@ -467,10 +384,7 @@
     <entry file="file://$PROJECT_DIR$/js/Graphomatic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="51" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1335">
-          <folding>
-            <marker date="1402135870000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1402135870000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,23 +471,9 @@
         <state line="2" column="29" selection-start="159" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/serieux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/models/SVGFilterEffect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="28" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/serieux.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="559" selection-end="559" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templates/impactant.html">
@@ -637,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/arty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="597" selection-end="597" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/templates/arty.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="51" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
@@ -656,56 +549,9 @@
         <state line="2" column="50" selection-start="84" selection-end="84" vertical-scroll-proportion="0.06622516" vertical-offset="0" max-vertical-offset="453" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/effects/ExtrudeText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/joyeux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="276" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/joyeux.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1777" column="45" selection-start="161515" selection-end="161527" vertical-scroll-proportion="-28.75" vertical-offset="165" max-vertical-offset="1125">
-          <folding>
-            <element signature="tag#g#0;tag#g#1;tag#svg#0" expanded="false" />
-            <element signature="tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
-            <element signature="tag#g#0;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
-            <element signature="tag#g#1;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/rythme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="82" selection-start="2107" selection-end="2107" vertical-scroll-proportion="-18.958334" vertical-offset="280" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/important.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/templates/elegant.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="28" selection-start="358" selection-end="358" vertical-scroll-proportion="0.26124817" vertical-offset="0" max-vertical-offset="689">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/TemplateModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="64" selection-start="607" selection-end="607" vertical-scroll-proportion="0.4059829" vertical-offset="0" max-vertical-offset="1635">
           <folding />
         </state>
       </provider>
@@ -724,20 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/rythme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="53" selection-start="505" selection-end="505" vertical-scroll-proportion="-14.423077" vertical-offset="120" max-vertical-offset="2940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/models/ContentModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="21" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="1770">
@@ -747,31 +579,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/models/TypologyCollection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="28" selection-start="1598" selection-end="1598" vertical-scroll-proportion="1.2426035" vertical-offset="285" max-vertical-offset="2415">
+        <state line="74" column="0" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/arty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="7" selection-start="1597" selection-end="1597" vertical-scroll-proportion="-12.083333" vertical-offset="355" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/serieux.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="-8.125" vertical-offset="135" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/important.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/ExtrudeText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/serieux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/Serieux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="21" selection-start="1449" selection-end="1449" vertical-scroll-proportion="-16.192308" vertical-offset="164" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Graphomatic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="103" selection-start="2341" selection-end="2341" vertical-scroll-proportion="-13.692307" vertical-offset="769" max-vertical-offset="1710">
+        <state line="49" column="12" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.25544268" vertical-offset="559" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/Rainbow.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/TemplateModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="32" selection-start="1921" selection-end="1931" vertical-scroll-proportion="0.5660377" vertical-offset="675" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/joyeux.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="271" selection-end="372" vertical-scroll-proportion="-0.625" vertical-offset="75" max-vertical-offset="1125">
           <folding>
-            <marker date="1402135870000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1402135870000" expanded="true" signature="-1:-1" placeholder="..." />
+            <element signature="tag#g#0;tag#g#1;tag#svg#0" expanded="false" />
+            <element signature="tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
+            <element signature="tag#g#0;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
+            <element signature="tag#g#1;tag#g#1;tag#g#1;tag#svg#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/joyeux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/rythme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="70" selection-start="455" selection-end="455" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/rythme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templates/important.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="42" selection-start="7642" selection-end="7642" vertical-scroll-proportion="-16.458334" vertical-offset="1000" max-vertical-offset="1785">
+        <state line="97" column="70" selection-start="7794" selection-end="7794" vertical-scroll-proportion="-12.083333" vertical-offset="1165" max-vertical-offset="1830">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="92" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.2920354" vertical-offset="642" max-vertical-offset="1320">
+        <state line="61" column="34" selection-start="1745" selection-end="1745" vertical-scroll-proportion="-13.625" vertical-offset="588" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4712919" vertical-offset="615" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/effects/RepeatImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="22" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.42951542" vertical-offset="1845" max-vertical-offset="2940">
           <folding />
         </state>
       </provider>

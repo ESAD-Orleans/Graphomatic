@@ -1,4 +1,5 @@
-define(['models/TemplateModel','text!templates/serieux.html','templates/effects/BlackAndWhite'],function(TemplateModel,HTML,BlackAndWhite){
+define(['models/TemplateModel','text!templates/serieux.html','templates/effects/BlackAndWhite','templates/effects/Serieux'],
+    function(TemplateModel,HTML,BlackAndWhite,Serieux){
 	
 	return TemplateModel.extend({
 		template:_.template(HTML),
@@ -8,7 +9,8 @@ define(['models/TemplateModel','text!templates/serieux.html','templates/effects/
         },
 		color:'#000',
         effect:{
-            '#img':BlackAndWhite
+            '#image':BlackAndWhite,
+            '#title1':Serieux
         }
 	});
 	

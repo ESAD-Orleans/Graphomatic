@@ -46,8 +46,8 @@ define(['jquery','underscore','backbone','jquery.form',//'color-thief',
             //
             //
 			//
-			//this.submit();
             this.contents = new ContentModel();
+            this.submit();
 			//
 			this.loadImage(this.contents.get('image').url);
             //
