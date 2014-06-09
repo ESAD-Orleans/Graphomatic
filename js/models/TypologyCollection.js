@@ -123,7 +123,8 @@ define(['jquery','underscore','backbone',
             //console.log('run >>>');
 			var typologies = this.randomSelectedTypologies(operations.length);
             //
-            var printDescription = "";
+            var printMessage = [], printDescription = "";
+            var typeOrder = [];
             //
             function _Run(id){
                 //
@@ -131,6 +132,10 @@ define(['jquery','underscore','backbone',
                     description = t.get(operations[id]+'Description');
                 description = description ? description:(typologies.value()[id].id +' ('+operations[id]+')');
                 printDescription += description+" \n";
+                typeOrder.push(typologies.value()[id].id+' ');
+                //console.log();
+                //printMessage.push(operations[id]+'Description '+description+' // \n<br/>');
+                printMessage.push(description);
                 //console.log(printDescription);
                 //id+' : '+typologies.value()[id].id + ' : '+description );//+template.get('descriptions')[]);
                 t[operations[id]](content);
@@ -139,6 +144,10 @@ define(['jquery','underscore','backbone',
             for(var n=0; n<typologies.size(); n++){
                 _Run(n);
             }
+            //
+            printDescription = typeOrder.join(' ')+' <br/><br/>';
+            printDescription += printMessage[0]+printMessage[2]+printMessage[3]+printMessage[1]+printMessage[4];
+            //
 			var rawHTML = $('#doc').html();
 			$('#doc').html('').html(rawHTML);
             $('.spinner').stop().delay(200).fadeOut(100,function(){$(this).remove()});

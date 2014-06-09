@@ -2,7 +2,10 @@ define(['models/TemplateModel','text!templates/beau.html','templates/effects/Ven
 	
 	return TemplateModel.extend({
         defaults:{
-            //  'rebaseDocDescription':'une image simple'
+            'rebaseDocDescription':'Parce qu’elle est belle. ',
+            'applyFontDescription':'Parce qu’elle est belle tout simplement. ',
+            'applyColorDescription':'Parce qu’elle est belle tout simplement. ',
+            'applyEffectDescription':'Parce qu’elle est belle tout simplement. '
         },
 		template:_.template(HTML),
 		color:'transparent',

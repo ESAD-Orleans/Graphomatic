@@ -1,12 +1,12 @@
 define(['models/TemplateModel','text!templates/rythme.html','text!templates/fonts.css','templates/effects/RepeatImage'],function(TemplateModel,HTML,fonts,RepeatImage){
 	
 	return TemplateModel.extend({
-        /*rebaseDoc:function(c){
-            TemplateModel.prototype.rebaseDoc(c);
-        },*/
         defaults:{
-            'rebaseDocDescription':'une composition rythmée',
-            'applyFontDescription':'avec une typographie rythmée'
+            'rebaseDocDescription':'Grace à une composition musicale ',
+            'applyFontDescription':'avec une typographie dynamique ',
+            'applyColorDescription':'et une couleur qui fait du bruit. ',
+            'insertGraphicDescription':' ',
+            'applyEffectDescription':' '
         },
         afterRebaseDoc:function(){
             var t = $('<style>'+_.template(fonts)({font:'FagoCoLf-ExtraBoldItalicCaps'})+'</style>');

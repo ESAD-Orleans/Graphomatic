@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'DINPro-Regular';
+    src: url('fonts/DINPro-Regular/DINPro-Regular.eot?') format('eot'),
+    url('fonts/DINPro-Regular/DINPro-Regular.woff') format('woff'),
+    url('fonts/DINPro-Regular/DINPro-Regular.ttf')  format('truetype'),
+    url('fonts/DINPro-Regular/DINPro-Regular.svg#DINPro-Regular') format('svg');
+}
+@font-face {
+    font-family: 'DINPro-Bold';
+    src: url('fonts/DINPro-Bold/DINPro-Bold.eot?') format('eot'),
+    url('fonts/DINPro-Bold/DINPro-Bold.woff') format('woff'),
+    url('fonts/DINPro-Bold/DINPro-Bold.ttf')  format('truetype'),
+    url('fonts/DINPro-Bold/DINPro-Bold.svg#DINPro-Bold') format('svg');
+}
+
 html,body{
 	padding:0;
 	margin:0;
@@ -9,10 +24,25 @@ html,body{
 	min-height: 680px;
 	position:relative;
 }
+
+h1{
+    background: #999;
+    width:100%;
+    padding: 10px 30px;
+    position: absolute;
+    line-height: 30px;
+    font-size:30px;
+    margin: 0;
+    font-weight: normal;
+    font-family: "DINPro-Bold", Helvetica, sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
 .tools {
     display: none;
 	position: fixed;
-	top:50px;
+	top:60px;
 	left:440px;
 	width:auto;
 	float:left;
@@ -136,7 +166,7 @@ button#print{
 #printfile{
     position:absolute;
     left:10px;
-    top:40px;
+    top:60px;
     width:300px;
     padding: 10px;
     background: #999;
@@ -155,13 +185,13 @@ button#print{
     #doc{
         left:350px;
         right:350px;
-        top:0;
+        top:50px;
         bottom: 0;
         margin: auto;
     }
     .tools{
         position:absolute;
-        right:20px;
+        right:10px;
         left:auto;
     }
 }
