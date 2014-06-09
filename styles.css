@@ -172,6 +172,13 @@ button#print{
     background: #999;
     color:#000;
     overflow: auto;
+    font-family: "DINPro-Regular";
+    font-size:13px;
+}
+#printfile ul,
+#printfile li{
+    list-style: none;
+    padding: 0;
 }
 #printfile pre{
     max-width: 100%;
