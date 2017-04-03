@@ -11,7 +11,7 @@ le projet requiert un environnement Apache/PHP, même si pas besoin de base de d
 
 ### exemple sur MAMP (OSX)
 
-Une installation rapide est cloner directement dans `/Application/MAMP/htdocs`
+Une installation rapide est de cloner le projet directement dans `/Application/MAMP/htdocs`
 	
 	cd /Application/MAMP/htdocs
 	git clone https://github.com/ESAD-Orleans/Graphomatic.git
