@@ -1,5 +1,10 @@
 # Graphomatic
-par Lucciano Espeso
+
+Générateur d’affiches *décallées* à partir d’une saisie de taxonomie et de mots-clés, 
+accompagné d’un argumentaire généré en association à l’affiche. 
+
+Projet faisant partie du projet plastique de DNSEP de Lucciano Espeso, en 2014. 
+Programmation ÉSAD Orléans / Arthur Violy
 
 ## installation du projet
 
