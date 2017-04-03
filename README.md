@@ -3,9 +3,6 @@
 Générateur d’affiches *décallées* à partir d’une saisie de taxonomie et de mots-clés, 
 accompagné d’un argumentaire généré en association à l’affiche. 
 
-Projet faisant partie du projet plastique de DNSEP de Lucciano Espeso, en 2014. 
-Programmation ÉSAD Orléans / Arthur Violy
-
 ## installation du projet
 
 le projet requiert un environnement Apache/PHP, même si pas besoin de base de donnée.
@@ -44,3 +41,11 @@ Il faut donc *ou bien* retrouver les fonts par vous même, *ou bien* me les dema
 
 Le projet est visible à cette adresse
 http://nterfaces.org/Graphitron3125/
+
+## à propos
+
+Projet faisant partie du projet plastique de DNSEP de Lucciano Espeso, en 2014. 
+
+- Auteur : Lucciano Espeso
+- Développeur : Arthur Violy
+- Professeur référent : Uli Meisenheimer
