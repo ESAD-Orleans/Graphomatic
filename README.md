@@ -29,3 +29,13 @@ S’affiche alors ceci
 Il suffit d’ouvrir un navigateur web (attention au port configuré dans MAMP, par défaut 8080)
 
 	http://localhost:8080/Graphomatic/
+	
+## fonts
+
+Le dossier `fonts` a été ignoré du projet car les fonts avaient été publiées sur Github sans licence, puis retiré suite à une demande https://github.com/ESAD-Orleans/Graphomatic/issues/1 —
+Il faut donc *ou bien* retrouver les fonts par vous même, *ou bien* me les demander en privé.
+
+## démonstration
+
+Le projet est visible à cette adresse
+http://nterfaces.org/Graphitron3125/
